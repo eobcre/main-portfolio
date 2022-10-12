@@ -12,46 +12,47 @@ const Home = () => {
         <p className="text-7xl py-4">Emmy Manning</p>
         <p className="text-xl">Love to build creative and magical things.</p>
       </div>
-      <div className="glass-card mx-auto w-380 md:w-480">
-        <main className="max-w-xs mx-auto">
-          <div className="grid">
-            <div className="subnames grid mt-6">
+      <div className="glass-card mx-auto w-380 md:w-500">
+        <main className="max-w-21 mx-auto">
+          <div>
+            <div className="mt-6">
               <a
                 href="https://www.linkedin.com/in/emmymanning/"
                 target="_blank"
-                className="hover:underline text-light-gray"
+                className="effect-st grid grid-cols-12"
               >
-                <p className="text-light-gray text-sm uppercase">Me</p>
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                className="hover:underline text-light-gray"
-              >
-                <p className="text-light-gray text-sm uppercase">Portfolio</p>
+                <span className="subname-st col-start-2 col-end-3">Me</span>
+                <span className="subname-st col-start-7 col-span-2">
+                  Portfolio
+                </span>
               </a>
             </div>
             <img src={Brackets} alt="Icon" />
             <p className="text-center text-3xl">Emmy@WebDevEM.com</p>
           </div>
           <img src={Bracket_2} alt="Icon" />
-          <div className="sub-ig grid">
+
+          <div className="sub-ig">
             <a
               href="https://www.instagram.com/webdevcreative/"
               target="_blank"
-              className="hover:underline text-light-gray"
+              className="effect-st grid grid-cols-7"
             >
-              <p className="text-light-gray text-sm uppercase">Instagram</p>
+              <span></span>
+              <span className="subname-st col-start-4 col-end-6">
+                Instagram
+              </span>
             </a>
           </div>
+
           <img src={Bracket} alt="Icon" />
           <div className="sub-email grid justify-center mb-4">
             <a
               href="mailto:eobcre@gmail.com"
               target="_blank"
-              className="hover:underline text-light-gray"
+              className="effect-st"
             >
-              <p className="text-light-gray text-sm uppercase">Email</p>
+              <p className="subname-st">Email</p>
             </a>
           </div>
         </main>
