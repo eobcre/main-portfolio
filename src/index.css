@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
+/* all */
 * {
   font-family: "Josefin Sans", sans-serif;
 }
@@ -22,6 +23,7 @@ code {
     monospace;
 }
 
+/* navigation bar, card */
 .glass-nav,
 .glass-card {
   background: rgba(255, 255, 255, 0.19);
@@ -31,12 +33,12 @@ code {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.subnames {
-  grid-template-columns: 25% 75%;
-  place-items: center;
-}
+@layer components {
+  .effect-st {
+    @apply hover:underline text-light-gray;
+  }
 
-.sub-ig {
-  grid-template-columns: 113%;
-  place-items: center;
+  .subname-st {
+    @apply text-light-gray text-sm uppercase;
+  }
 }
