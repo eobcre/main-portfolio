@@ -14,8 +14,11 @@ module.exports = {
         zoom: "100rem",
       },
       spacing: {
-        480: "480px",
+        500: "500px",
         380: "380px",
+      },
+      maxWidth: {
+        21: "21rem",
       },
     },
   },
