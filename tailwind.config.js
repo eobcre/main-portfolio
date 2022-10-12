@@ -5,12 +5,17 @@ module.exports = {
     extend: {
       colors: {
         "light-gray": "#A0A0A0",
+        "light-blue": "#34C7F2",
       },
       backgroundImage: {
-        webTop: "url('./img/webTop.jpg')",
+        webTop: "url('./img/cards.jpg')",
       },
       backgroundSize: {
         zoom: "100rem",
+      },
+      spacing: {
+        480: "480px",
+        380: "380px",
       },
     },
   },
