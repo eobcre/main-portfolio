@@ -19,10 +19,10 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/emmymanning/"
                 target="_blank"
-                className="effect-st grid grid-cols-12"
+                className="effect-st grid grid-cols-11 place-items-center"
               >
-                <span className="subname-st col-start-2 col-end-3">Me</span>
-                <span className="subname-st col-start-7 col-span-2">
+                <span className="subname-st col-start-2">Me</span>
+                <span className="subname-st col-start-6 col-span-4">
                   Portfolio
                 </span>
               </a>
