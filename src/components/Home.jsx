@@ -1,59 +1,85 @@
 import React from "react";
+import Header from "./Header";
+// Images
 import Brackets from "../img/brackets.png";
 import Bracket from "../img/bracket.png";
 import Bracket_2 from "../img/bracket_2.png";
-import Header from "./Header";
 
 const Home = () => {
   return (
     <div className="h-screen w-screen bg-webTop bg-center bg-zoom table-cell align-middle">
       <Header />
+      {/* Main contents */}
       <div className="text-center py-8">
-        <p className="text-7xl py-4">Emmy Manning</p>
-        <p className="text-xl">Love to build creative and magical things.</p>
+        <p className="text-7xl text-dark-gray py-4">Emmy Manning</p>
+        <p className="text-xl text-dark-gray">
+          Love to build creative and magical things.
+        </p>
       </div>
+
+      {/* Card */}
       <div className="glass-card mx-auto w-380 md:w-500">
         <main className="max-w-21 mx-auto">
-          <div>
-            <div className="mt-6">
+          {/* GitHub */}
+          <div className="grid grid-cols-12 mt-6">
+            <span className="effect-st col-start-2 col-span-2">
               <a
-                href="https://www.linkedin.com/in/emmymanning/"
+                href="https://github.com/eobcre"
                 target="_blank"
-                className="effect-st grid grid-cols-11 place-items-center"
+                rel="noopener noreferrer"
               >
-                <span className="subname-st col-start-2">Me</span>
-                <span className="subname-st col-start-6 col-span-4">
-                  Portfolio
-                </span>
+                GitHub
               </a>
-            </div>
-            <img src={Brackets} alt="Icon" />
-            <p className="text-center text-3xl">Emmy@WebDevEM.com</p>
+            </span>
+            {/* Portfolio */}
+            <span className="effect-st col-start-8 col-span-3">
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Portfolio
+              </a>
+            </span>
           </div>
+
+          <img src={Brackets} alt="Icon" />
+
+          {/* eobcre@emanning.dev */}
+          <div>
+            <p className="email text-center text-3xl text-dark-gray">
+              eobcre@emanning.dev
+            </p>
+          </div>
+
           <img src={Bracket_2} alt="Icon" />
 
-          <div className="sub-ig">
-            <a
-              href="https://www.instagram.com/webdevcreative/"
-              target="_blank"
-              className="effect-st grid grid-cols-7"
-            >
-              <span></span>
-              <span className="subname-st col-start-4 col-end-6">
+          {/* Instagram */}
+          <div className="grid grid-cols-9">
+            <span className="effect-st col-end-8 col-span-2">
+              <a
+                href="https://www.instagram.com/emanning.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Instagram
-              </span>
-            </a>
+              </a>
+            </span>
           </div>
 
           <img src={Bracket} alt="Icon" />
+
+          {/* Email */}
           <div className="sub-email grid justify-center mb-4">
-            <a
-              href="mailto:eobcre@gmail.com"
-              target="_blank"
-              className="effect-st"
-            >
-              <p className="subname-st">Email</p>
-            </a>
+            <span className="effect-st">
+              <a
+                href="mailto:eobcre@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Email
+              </a>
+            </span>
           </div>
         </main>
       </div>
