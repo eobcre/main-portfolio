@@ -11,7 +11,9 @@ const Home = () => {
       <Header />
       {/* Main contents */}
       <div className="text-center py-8">
-        <p className="text-7xl text-dark-gray py-4">Emmy Manning</p>
+        <p className="text-7xl text-dark-gray tracking-wide py-4">
+          Emmy Manning
+        </p>
         <p className="text-xl text-dark-gray">
           Love to build creative and magical things.
         </p>
@@ -47,7 +49,7 @@ const Home = () => {
 
           {/* eobcre@emanning.dev */}
           <div>
-            <p className="email text-center text-3xl text-dark-gray">
+            <p className="text-center text-5xl text-light-gray">
               eobcre@emanning.dev
             </p>
           </div>
