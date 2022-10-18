@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light-gray": "#A0A0A0",
+        "light-gray": "#808080",
         "light-blue": "#34C7F2",
+        "dark-gray": "#303030",
+        "off-white": "#FFFFFE",
       },
       backgroundImage: {
         webTop: "url('./img/cards.jpg')",
@@ -19,6 +21,9 @@ module.exports = {
       },
       maxWidth: {
         21: "21rem",
+      },
+      fontSize: {
+        "5xl": "2.75rem",
       },
     },
   },
