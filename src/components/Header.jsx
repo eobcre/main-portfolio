@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import Logo from "../img/logo.svg";
+import PDF from "../Resume.pdf";
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -10,8 +11,8 @@ export default function Header() {
   const show = () => setNavbar(true);
 
   return (
-    <nav className="fixed top-0">
-      <div className="glass-nav w-screen absolute z-100 justify-between px-4 mx-auto md:items-center md:flex md:px-8">
+    <nav className="fixed top-0 z-10">
+      <div className="glass-nav w-screen justify-between px-4 mx-auto md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-2 md:block">
             <a href="./">
@@ -37,14 +38,14 @@ export default function Header() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 md:text-white">
-              <li className="text-center text-base hover:opacity-40 uppercase">
+            <ul className="text-dark-gray items-center justify-center space-y-8 md:text-white md:flex md:space-x-6 md:space-y-0">
+              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
                 <Link
                   activeClass="active"
-                  to="AppAbout"
+                  to="About"
                   spy={true}
                   smooth={true}
-                  offset={-80}
+                  offset={-60}
                   duration={500}
                   onClick={toggle}
                   onBlur={hide}
@@ -53,13 +54,13 @@ export default function Header() {
                   About
                 </Link>
               </li>
-              <li className="text-center text-base hover:opacity-40 uppercase">
+              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
                 <Link
                   activeClass="active"
-                  to="AppProjects"
+                  to="Projects"
                   spy={true}
                   smooth={true}
-                  offset={-80}
+                  offset={-60}
                   duration={500}
                   onClick={toggle}
                   onBlur={hide}
@@ -68,13 +69,13 @@ export default function Header() {
                   Projects
                 </Link>
               </li>
-              <li className="text-center text-base hover:opacity-40 uppercase">
+              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
                 <Link
                   activeClass="active"
-                  to="AppContact"
+                  to="Contact"
                   spy={true}
                   smooth={true}
-                  offset={-80}
+                  offset={-60}
                   duration={500}
                   onClick={toggle}
                   onBlur={hide}
@@ -83,20 +84,10 @@ export default function Header() {
                   Contact
                 </Link>
               </li>
-              <li className="text-center text-base hover:opacity-40 uppercase">
-                <Link
-                  activeClass="active"
-                  to="AppContact"
-                  spy={true}
-                  smooth={true}
-                  offset={-80}
-                  duration={500}
-                  onClick={toggle}
-                  onBlur={hide}
-                  onFocus={show}
-                >
+              <li class="text-center text-xl hover:opacity-40 2xl:text-2xl">
+                <a href={PDF} target="_blank" rel="noopener noreferrer">
                   Resume
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
