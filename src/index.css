@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-/* all */
+/* All */
 * {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Bebas Neue", cursive;
 }
 
 body {
@@ -23,7 +25,8 @@ code {
     monospace;
 }
 
-/* navigation bar, card */
+/* Navigation bar, card */
+.glass,
 .glass-nav,
 .glass-card {
   background: rgba(255, 255, 255, 0.19);
@@ -35,10 +38,22 @@ code {
 
 @layer components {
   .effect-st {
-    @apply hover:underline text-light-gray;
+    @apply text-light-gray hover:text-dark-gray hover:underline underline-offset-4;
   }
 
-  .subname-st {
-    @apply text-light-gray text-sm uppercase;
+  .sub-st {
+    @apply text-3xl border-l-4 mt-20 px-3 mb-8;
+  }
+
+  .fig-st {
+    @apply mx-auto text-center py-3 text-dark-gray;
+  }
+
+  .bio-st {
+    @apply text-lg md:text-2xl;
+  }
+
+  .contact-st {
+    @apply px-2 py-2 placeholder-gray-400 text-sm text-gray-600 relative bg-white rounded border-0 shadow outline-none focus:outline-none focus:ring w-full md:px-3 md:py-3;
   }
 }
