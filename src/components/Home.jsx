@@ -23,7 +23,7 @@ const Home = () => {
       <div className="glass-card mx-auto w-380 md:w-500">
         <main className="max-w-21 mx-auto">
           {/* GitHub */}
-          <div className="grid grid-cols-12 mt-6">
+          <div className="grid grid-cols-10 mt-6">
             <span className="effect-st col-start-2 col-span-2">
               <a
                 href="https://github.com/eobcre"
@@ -34,7 +34,7 @@ const Home = () => {
               </a>
             </span>
             {/* Portfolio */}
-            <span className="effect-st col-start-8 col-span-3">
+            <span className="effect-st col-start-7 col-span-3">
               <a
                 href="https://google.com"
                 target="_blank"
