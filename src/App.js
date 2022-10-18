@@ -8,9 +8,15 @@ const App = () => {
   return (
     <div>
       <Home />
-      <About />
-      <Projects />
-      <Contact />
+      <section id="About">
+        <About title="Hi, I'm Emmy!" />
+      </section>
+      <section id="Projects">
+        <Projects />
+      </section>
+      <section id="Contact">
+        <Contact name="Send Message" title="Contact" />
+      </section>
     </div>
   );
 };
