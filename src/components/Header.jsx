@@ -1,7 +1,10 @@
 import { useState } from "react";
+// React-scroll
 import { Link } from "react-scroll";
+// Icons
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import Logo from "../img/logo.svg";
+// PDF
 import PDF from "../Resume.pdf";
 
 export default function Header() {
@@ -84,7 +87,7 @@ export default function Header() {
                   Contact
                 </Link>
               </li>
-              <li class="text-center text-xl hover:opacity-40 2xl:text-2xl">
+              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
                 <a href={PDF} target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
@@ -92,6 +95,9 @@ export default function Header() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="side fixed bottom-0 text-dark-gray text-2xl px-4 py-8">
+        <p className="hidden md:block">&copy; 2023 Emmy Manning</p>
       </div>
     </nav>
   );
