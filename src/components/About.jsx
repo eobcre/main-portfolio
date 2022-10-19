@@ -1,104 +1,118 @@
 import React from "react";
+import { FadeIn } from "./FadeIn";
 import PDF from "../Resume.pdf";
-import { ReactComponent as HTML } from "../img/skillset/html.svg";
-import { ReactComponent as CSS } from "../img/skillset/css.svg";
-import { ReactComponent as Sass } from "../img/skillset/sass.svg";
-import { ReactComponent as Tailwind } from "../img/skillset/tailwind.svg";
-import { ReactComponent as NodeJS } from "../img/skillset/nodejs.svg";
-import { ReactComponent as JS } from "../img/skillset/js.svg";
-import { ReactComponent as PY } from "../img/skillset/py.svg";
-import { ReactComponent as ReactIcon } from "../img/skillset/react.svg";
-import { ReactComponent as GitHub } from "../img/skillset/github.svg";
-import { ReactComponent as Git } from "../img/skillset/git.svg";
-import { ReactComponent as VS } from "../img/skillset/vs.svg";
-import { ReactComponent as R } from "../img/skillset/r.svg";
+// Skillsets
+import HTML from "../img/skillset/html.svg";
+import CSS from "../img/skillset/css.svg";
+import Sass from "../img/skillset/sass.svg";
+import Tailwind from "../img/skillset/tailwind.svg";
+import NodeJS from "../img/skillset/nodejs.svg";
+import JS from "../img/skillset/js.svg";
+import PY from "../img/skillset/py.svg";
+import ReactIcon from "../img/skillset/react.svg";
+import GitHub from "../img/skillset/github.svg";
+import Git from "../img/skillset/git.svg";
+import VS from "../img/skillset/vs.svg";
+import R from "../img/skillset/r.svg";
+import Smile from "../img/smile.svg";
 
 const About = (props) => {
   return (
     <div className="h-auto bg-light-blue text-dark-gray pb-10">
       <div className="mx-auto w-4/5 md:w-3/5">
-        <h1 className="text-4xl pt-16 md:text-5xl">{props.title}</h1>
+        <FadeIn>
+          <div className="table mx-auto pt-16">
+            <h1 className="text-4xl md:text-5xl">{props.title}</h1>
+            <img src={Smile} alt="SmileIcon" className="pt-4 pl-4" />
+          </div>
+        </FadeIn>
         <h2 className="sub-st">About Me</h2>
-        <p className="bio-st">
-          I'm a coder that loves to be creative. My interest in development
-          started back in 2018 when I worked at the game company in Tokyo. I've
-          had a privilege of working at Game Company : testing the new releasing
-          games, Navigation Agency : testing and installing softwares, Map
-          Designing, Survey Agency : developing medical surveys. See my resume
-          for additional details. I'm always curious to learn more when it comes
-          to new technologies and coding!
-        </p>
-        <p className="bio-st pt-4">
-          <a
-            href={PDF}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-light-gray"
-          >
-            →{" "}
-            <span className="hover:opacity-70 hover:underline underline-offset-8">
-              Check out my resume
-            </span>
-          </a>
-        </p>
+        <FadeIn>
+          <p className="bio-st">
+            I'm a coder that loves to be creative. My interest in development
+            started back in 2018 when I worked at the game company in Tokyo.
+            I've had a privilege of working at Game Company : testing the new
+            releasing games, Navigation Agency : testing and installing
+            softwares, Map Designing, Survey Agency : developing medical
+            surveys. See my resume for additional details. I'm always curious to
+            learn more when it comes to new technologies and coding!
+          </p>
+          <p className="bio-st pt-4">
+            <a
+              href={PDF}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-light-gray"
+            >
+              →{" "}
+              <span className="hover:opacity-70 hover:underline underline-offset-8">
+                Check out my resume
+              </span>
+            </a>
+          </p>
+        </FadeIn>
         <h2 className="sub-st">Education</h2>
-        <p className="bio-st">
-          I graduated with a BS in AI Technology course and also self taught in
-          front-end, I built web applications in Python working on a project
-          with the other students as a team.
-          <br />
-          Here are technologies I've worked on :
-        </p>
-        <div className="grid grid-cols-3 md:grid md:grid-cols-5 pt-7">
-          <figure className="fig-st">
-            <JS />
-            <figcaption className="text-sm">JavaScript</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <PY />
-            <figcaption className="text-sm">Python</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <HTML />
-            <figcaption className="text-sm">HTML</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <CSS />
-            <figcaption className="text-sm">CSS</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <Sass />
-            <figcaption className="text-sm">Sass</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <Tailwind />
-            <figcaption className="text-sm">Tailwind</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <NodeJS />
-            <figcaption className="text-sm">Node JS</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <ReactIcon />
-            <figcaption className="text-sm">React</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <Git />
-            <figcaption className="text-sm">Git</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <GitHub />
-            <figcaption>GitHub</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <VS />
-            <figcaption className="text-sm">Visual Studio</figcaption>
-          </figure>
-          <figure className="fig-st">
-            <R />
-            <figcaption className="text-sm">R</figcaption>
-          </figure>
-        </div>
+        <FadeIn>
+          <p className="bio-st">
+            I graduated with a BS in AI Technology course and also self taught
+            in front-end, I built web applications in Python working on a
+            project with the other students as a team.
+            <br />
+            Here are technologies I've worked on :
+          </p>
+        </FadeIn>
+        <FadeIn>
+          <div className="grid grid-cols-3 md:grid md:grid-cols-5 pt-7">
+            <figure className="fig-st">
+              <img src={JS} alt="JSLogo" />
+              <figcaption className="text-sm">JavaScript</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={PY} alt="PYLogo" />
+              <figcaption className="text-sm">Python</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={HTML} alt="HTMLIcon" />
+              <figcaption className="text-sm">HTML</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={CSS} alt="CSSIcon" />
+              <figcaption className="text-sm">CSS</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={Sass} alt="SassIcon" />
+              <figcaption className="text-sm">Sass</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={Tailwind} alt="TailwindIcon" />
+              <figcaption className="text-sm">Tailwind</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={NodeJS} alt="NodeJSIcon" />
+              <figcaption className="text-sm">Node JS</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={ReactIcon} alt="ReactIcon" />
+              <figcaption className="text-sm">React</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={Git} alt="GitIcon" />
+              <figcaption className="text-sm">Git</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={GitHub} alt="GitHubIcon" />
+              <figcaption>GitHub</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={VS} alt="VSIcon" />
+              <figcaption className="text-sm">Visual Studio</figcaption>
+            </figure>
+            <figure className="fig-st">
+              <img src={R} alt="RIcon" />
+              <figcaption className="text-sm">R</figcaption>
+            </figure>
+          </div>
+        </FadeIn>
       </div>
     </div>
   );
