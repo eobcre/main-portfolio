@@ -14,7 +14,7 @@ const Home = () => {
         <p className="text-7xl text-dark-gray tracking-wide py-4">
           Emmy Manning
         </p>
-        <p className="text-xl text-dark-gray">
+        <p className="text-2xl text-dark-gray">
           Love to build creative and magical things.
         </p>
       </div>
