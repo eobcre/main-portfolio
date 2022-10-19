@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Home />
       <section id="About">
-        <About title="Hi, I'm Emmy!" />
+        <About title="Hi, I'm Emmy." />
       </section>
       <section id="Projects">
         <Projects />
