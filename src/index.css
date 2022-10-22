@@ -62,7 +62,7 @@ code {
   }
 
   .sub-st {
-    @apply text-3xl border-l-4 mt-10 px-3 mb-8 md:text-4xl xl:text-5xl;
+    @apply text-dark-gray text-3xl border-l-4 px-3 mb-8 md:text-4xl xl:text-5xl;
   }
 
   .fig-st {
