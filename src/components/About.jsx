@@ -23,7 +23,7 @@ const About = (props) => {
         <FadeIn>
           <div className="table mx-auto pt-16">
             <h1 className="text-4xl md:text-5xl">{props.title}</h1>
-            <img src={Smile} alt="SmileIcon" className="pt-4 pl-4" />
+            <img src={Smile} alt="SmileIcon" className="pl-4" />
           </div>
         </FadeIn>
         <h2 className="sub-st">About Me</h2>
