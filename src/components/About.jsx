@@ -18,11 +18,11 @@ import Smile from "../img/smile.svg";
 
 const About = (props) => {
   return (
-    <div className="h-auto bg-light-blue text-dark-gray pb-10">
+    <div className="h-auto bg-light-blue text-dark-gray">
       <div className="mx-auto w-4/5 md:w-3/5">
         <FadeIn>
           <div className="table mx-auto pt-16">
-            <h1 className="text-4xl md:text-5xl">{props.title}</h1>
+            <p className="text-4xl md:text-5xl">{props.title}</p>
             <img src={Smile} alt="SmileIcon" className="pl-4" />
           </div>
         </FadeIn>
@@ -51,7 +51,7 @@ const About = (props) => {
             </a>
           </p>
         </FadeIn>
-        <h2 className="sub-st">Education</h2>
+        <h2 className="sub-st mt-20">Education</h2>
         <FadeIn>
           <p className="bio-st">
             I graduated with a BS in AI Technology course and also self taught
