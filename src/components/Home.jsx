@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./Header";
 // Images
-import Brackets from "../img/brackets.png";
-import Bracket from "../img/bracket.png";
-import Bracket_2 from "../img/bracket_2.png";
+import Brackets from "../img/assets/brackets.png";
+import Bracket from "../img/assets/bracket.png";
+import Bracket_2 from "../img/assets/bracket_2.png";
 
 const Home = () => {
   return (

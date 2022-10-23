@@ -1,8 +1,7 @@
 import React from "react";
-import { FadeIn } from "./FadeIn";
 // Icons
-import TodoLogo from "../img/todo-logo.svg";
-import CaitzLogo from "../img/caitz.svg";
+import TodoLogo from "../img/logo/to-do.svg";
+import CaitzLogo from "../img/logo/caitz.svg";
 
 const Projects = (prop) => {
   return (
@@ -29,7 +28,7 @@ const Projects = (prop) => {
             <div className="px-4 pt-4">
               <img src={CaitzLogo} alt="Logo" width="100" height="100" />
               <h1 className="text-3xl text-dark-gray pt-2">
-                Caitz Hair Salon
+                Hair Salon Website
                 <hr></hr>
               </h1>
               <p className="text-xl text-dark-gray my-4">

@@ -14,7 +14,7 @@ import GitHub from "../img/skillset/github.svg";
 import Git from "../img/skillset/git.svg";
 import VS from "../img/skillset/vs.svg";
 import R from "../img/skillset/r.svg";
-import Smile from "../img/smile.svg";
+import Smile from "../img/assets/smile.svg";
 
 const About = (props) => {
   return (
