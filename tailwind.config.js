@@ -10,7 +10,7 @@ module.exports = {
         "off-white": "#FFFFFE",
       },
       backgroundImage: {
-        webTop: "url('./img/cards.jpg')",
+        webTop: "url('./img/assets/cards.jpg')",
       },
       backgroundSize: {
         zoom: "100rem",
