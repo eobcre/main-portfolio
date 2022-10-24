@@ -20,7 +20,7 @@ const Home = () => {
       </div>
 
       {/* Card */}
-      <div className="glass-card mx-auto w-380 md:w-500">
+      <div className="glass mx-auto w-380 md:w-600">
         <main className="max-w-21 mx-auto">
           {/* GitHub */}
           <div className="grid grid-cols-10 mt-6">
