@@ -1,13 +1,13 @@
 import React from "react";
 // Icons
-import TodoLogo from "../img/logo/to-do.svg";
-import CaitzLogo from "../img/logo/caitz.svg";
+import TodoLogo from "../img/logo/to-do.png";
+import CaitzLogo from "../img/logo/caitz.png";
 
 const Projects = (prop) => {
   return (
-    <div className="h-auto bg-light-blue pt-20">
+    <div className="h-auto bg-light-blue py-16">
       <div className="mx-auto w-4/5 md:w-3/5">
-        <p className="sub-st">MY WORK</p>
+        <p className="sub-st">My Work</p>
         <div className="grid gap-8">
           <div className="glass w-auto transition-transform duration-200 hover:scale-110">
             <div className="px-4 pt-4">
