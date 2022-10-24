@@ -5,7 +5,7 @@ import CaitzLogo from "../img/logo/caitz.png";
 
 const Projects = (prop) => {
   return (
-    <div className="h-auto bg-light-blue py-16">
+    <div className="h-auto bg-light-blue py-20">
       <div className="mx-auto w-4/5 md:w-3/5">
         <p className="sub-st">My Work</p>
         <div className="grid gap-8">

@@ -18,7 +18,7 @@ import R from "../img/skillset/r.svg";
 const About = (props) => {
   return (
     <div className="h-auto bg-light-blue w-screen bg-zoom text-dark-gray">
-      <div className="mx-auto py-16 w-4/5 md:w-3/5">
+      <div className="mx-auto py-20 w-4/5 md:w-3/5">
         <p className="sub-st">About Me</p>
         <FadeIn>
           <p className="bio-st">
