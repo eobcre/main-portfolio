@@ -10,14 +10,14 @@ module.exports = {
         "off-white": "#FFFFFE",
       },
       backgroundImage: {
-        webTop: "url('./img/assets/cards.jpg')",
+        webTop: "url('./img/assets/bg-main.jpg')",
+        webBG: "url('./img/assets/bg-page.jpg')",
       },
       backgroundSize: {
         zoom: "100rem",
       },
       spacing: {
         380: "380px",
-        500: "500px",
         600: "600px",
         minus: "-63px",
       },
