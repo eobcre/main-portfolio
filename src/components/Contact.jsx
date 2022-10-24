@@ -1,5 +1,6 @@
 import React from "react";
 import EmailJS from "emailjs-com";
+import LinkedIn from "../img/skillset/linkedin.svg";
 
 export default function Contact(props) {
   const sendEmail = (e) => {
@@ -23,15 +24,26 @@ export default function Contact(props) {
 
   // JSX
   return (
-    <div className="bg-light-blue h-auto pt-20 pb-36">
+    <div className="bg-webBG h-auto bg-center bg-zoom py-20">
       <div className="mx-auto w-4/5 md:w-3/5">
         <p className="sub-st">Contact</p>
         <div className="glass px-8">
           <form onSubmit={sendEmail} required>
             {/* Title */}
-            <h1 className="text-dark-gray text-2xl tracking-wide text-center py-5 md:text-3xl">
+            <h1 className="text-dark-gray text-2xl tracking-wide text-center pt-5 md:text-3xl">
               {props.title}
             </h1>
+            <a
+              href="https://www.linkedin.com/in/emmymanning"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={LinkedIn}
+                alt="Icon"
+                className="mx-auto pt-2 pb-4 hover:opacity-70"
+              />
+            </a>
             {/* "Name" field */}
             <div className="py-2">
               <input
