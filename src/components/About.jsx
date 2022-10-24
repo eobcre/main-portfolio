@@ -14,19 +14,12 @@ import GitHub from "../img/skillset/github.svg";
 import Git from "../img/skillset/git.svg";
 import VS from "../img/skillset/vs.svg";
 import R from "../img/skillset/r.svg";
-import Smile from "../img/assets/smile.svg";
 
 const About = (props) => {
   return (
-    <div className="h-auto bg-light-blue text-dark-gray">
-      <div className="mx-auto w-4/5 md:w-3/5">
-        <FadeIn>
-          <div className="table mx-auto pt-16">
-            <p className="text-4xl md:text-5xl">{props.title}</p>
-            <img src={Smile} alt="SmileIcon" className="pl-4" />
-          </div>
-        </FadeIn>
-        <h2 className="sub-st">About Me</h2>
+    <div className="h-auto bg-light-blue w-screen bg-zoom text-dark-gray">
+      <div className="mx-auto py-16 w-4/5 md:w-3/5">
+        <p className="sub-st">About Me</p>
         <FadeIn>
           <p className="bio-st">
             I'm a coder that loves to be creative. My interest in development
@@ -42,7 +35,7 @@ const About = (props) => {
               href={PDF}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light-gray"
+              className="text-white"
             >
               →{" "}
               <span className="hover:opacity-70 hover:underline underline-offset-8">
@@ -51,18 +44,20 @@ const About = (props) => {
             </a>
           </p>
         </FadeIn>
-        <h2 className="sub-st mt-20">Education</h2>
+        <div className="py-16">
+          <p className="sub-st">Education</p>
+          <FadeIn>
+            <p className="bio-st">
+              I graduated with a BS in AI Technology course and also self taught
+              in front-end, I built web applications in Python working on a
+              project with the other students as a team.
+              <br />
+              Here are technologies I've worked on :
+            </p>
+          </FadeIn>
+        </div>
         <FadeIn>
-          <p className="bio-st">
-            I graduated with a BS in AI Technology course and also self taught
-            in front-end, I built web applications in Python working on a
-            project with the other students as a team.
-            <br />
-            Here are technologies I've worked on :
-          </p>
-        </FadeIn>
-        <FadeIn>
-          <div className="grid grid-cols-3 md:grid md:grid-cols-5 pt-7">
+          <div className="grid grid-cols-3 md:grid md:grid-cols-5">
             <figure className="fig-st">
               <img src={JS} alt="JSLogo" />
               <figcaption className="text-sm">JavaScript</figcaption>
