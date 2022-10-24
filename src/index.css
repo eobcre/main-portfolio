@@ -2,13 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
 /* All */
 * {
   font-family: "Bebas Neue", cursive;
+}
+
+/* Font */
+@font-face {
+  src: url("./Font.woff") format("woff");
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -27,8 +31,7 @@ code {
 
 /* Navigation bar, card */
 .glass,
-.glass-nav,
-.glass-card {
+.glass-nav {
   background: rgba(255, 255, 255, 0.19);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.6px);
@@ -62,7 +65,7 @@ code {
   }
 
   .sub-st {
-    @apply text-dark-gray text-3xl border-l-4 px-3 mb-8 md:text-4xl xl:text-5xl;
+    @apply text-dark-gray text-3xl border-l-4 px-3 mb-8 md:text-4xl;
   }
 
   .fig-st {
@@ -70,7 +73,7 @@ code {
   }
 
   .bio-st {
-    @apply text-2xl md:text-3xl xl:text-4xl;
+    @apply text-2xl;
   }
 
   .contact-st {
