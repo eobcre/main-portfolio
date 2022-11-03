@@ -79,11 +79,10 @@ export default function Contact(props) {
             </div>
             {/* Button */}
             <div className="text-center pt-4 pb-6">
-              <button
-                className="px-9 py-4 rounded-md text-xl text-dark-gray border-2 border-light-blue cursor-pointer hover:underline underline-offset-8 transition-all duration-300 w-max self-center md:text-xl md:self-start"
-                type="submit"
-              >
-                {props.name}
+              <button className="button px-12 py-2" type="submit">
+                <span className="text text-dark-gray">{props.name}</span>
+                <div className="pen_1"></div>
+                <div className="pen_2"></div>
               </button>
             </div>
           </form>
