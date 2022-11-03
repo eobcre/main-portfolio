@@ -18,45 +18,39 @@ import R from "../img/skillset/r.svg";
 const About = (props) => {
   return (
     <div className="h-auto bg-light-blue w-screen bg-zoom text-dark-gray">
-      <div className="mx-auto py-20 w-4/5 md:w-3/4">
-        <p className="sub-st">About Me</p>
-        <FadeIn>
-          <p className="bio-st">
-            I'm a coder that loves to be creative. My interest in development
-            started back in 2018 when I worked at the game company in Tokyo.
-            I've had a privilege of working at Game Company : testing the new
-            releasing games, Navigation Agency : testing and installing
-            softwares, Map Designing, Survey Agency : developing medical
-            surveys. See my resume for additional details. I'm always curious to
-            learn more when it comes to new technologies and coding!
-          </p>
-          <p className="bio-st pt-4">
+      <div className="md:flex gap-10 w-4/5 mx-auto">
+        <div className="py-20 md:w-2/4">
+          <p className="sub-st">About Me</p>
+          <FadeIn>
+            <p className="bio-st">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              nesciunt temporibus reiciendis nobis distinctio libero rem nam
+              accusantium aperiam corporis perferendis, harum vitae. Excepturi
+              impedit ad, error amet blanditiis rem!
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              nesciunt temporibus reiciendis nobis distinctio libero rem nam
+              accusantium aperiam corporis perferendis, harum vitae. Excepturi
+              impedit ad, error amet blanditiis rem!
+            </p>
+          </FadeIn>
+          {/* Button */}
+          <div className="flex items-center pt-8">
             <a
               href={PDF}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white"
+              className="button px-20 py-2"
             >
-              →{" "}
-              <span className="hover:opacity-70 hover:underline underline-offset-8">
-                Check out my resume
-              </span>
+              <span className="text">Resume</span>
+              <div className="pen_1"></div>
+              <div className="pen_2"></div>
             </a>
-          </p>
-        </FadeIn>
-        <div className="py-16">
-          <p className="sub-st">Education</p>
-          <FadeIn>
-            <p className="bio-st">
-              I graduated with a BS in AI Technology course and also self taught
-              in front-end, I built web applications in Python working on a
-              project with the other students as a team.
-              <br />
-              Here are technologies I've worked on :
-            </p>
-          </FadeIn>
+          </div>
         </div>
-        <FadeIn>
+        {/* My Skills */}
+        <div className="MySkills py-20 md:w-2/4">
+          <p className="sub-st">My Skills</p>
           <div className="grid grid-cols-3 md:grid md:grid-cols-5">
             <figure className="fig-st">
               <img src={JS} alt="JSLogo" />
@@ -107,6 +101,18 @@ const About = (props) => {
               <figcaption className="text-sm">R</figcaption>
             </figure>
           </div>
+        </div>
+      </div>
+      {/* Education */}
+      <div className="w-4/5 mx-auto py-16">
+        <p className="sub-st">Education</p>
+        <FadeIn>
+          <p className="bio-st">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            nesciunt temporibus reiciendis nobis distinctio libero rem nam
+            accusantium aperiam corporis perferendis, harum vitae. Excepturi
+            impedit ad, error amet blanditiis rem!
+          </p>
         </FadeIn>
       </div>
     </div>
