@@ -8,10 +8,10 @@ module.exports = {
         "light-blue": "#34C7F2",
         "dark-gray": "#303030",
         "off-white": "#FFFFFE",
+        "dark-pink": "rgba(255,255,255,.4)",
       },
       backgroundImage: {
         webTop: "url('./img/assets/bg-main.jpg')",
-        webBG: "url('./img/assets/bg-page.jpg')",
       },
       backgroundSize: {
         zoom: "100rem",
@@ -26,6 +26,9 @@ module.exports = {
       },
       fontSize: {
         "5xl": "2.75rem",
+      },
+      inset: {
+        inset40: "40%",
       },
     },
   },
