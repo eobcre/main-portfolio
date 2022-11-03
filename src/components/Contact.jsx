@@ -24,10 +24,12 @@ export default function Contact(props) {
 
   // JSX
   return (
-    <div className="bg-webBG h-auto bg-center bg-zoom py-20">
-      <div className="mx-auto w-4/5 md:w-3/5">
+    <div className="bg-light-blue h-auto py-20">
+      <div className="mx-auto w-4/5 md:w-3/4">
         <p className="sub-st">Contact</p>
         <div className="glass px-8">
+          <span className="hidden absolute md:block md:top-10 -right-12 -rotate-12 w-24 h-8 bg-dark-pink md:border-l-2 md:border-r-2 md:border-dotted"></span>
+          <span className="hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-dark-pink md:border-l-2 md:border-r-2 md:border-dotted"></span>
           <form onSubmit={sendEmail} required>
             {/* Title */}
             <h1 className="text-dark-gray text-2xl tracking-wide text-center pt-5 md:text-3xl">
