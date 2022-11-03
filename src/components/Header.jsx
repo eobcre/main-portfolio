@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <nav className="fixed top-0 z-10">
-      <div className="glass-nav w-screen justify-between px-4 mx-auto md:items-center md:flex md:px-8">
+      <div className="glass w-screen justify-between px-4 mx-auto md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-2 md:block">
             <a href="./">
