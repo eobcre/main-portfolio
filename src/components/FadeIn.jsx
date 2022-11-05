@@ -5,10 +5,9 @@ export const FadeIn = (props) => {
   const documentRef = useRef();
 
   useEffect(() => {
-    // console.log(1);
-    const observer = new IntersectionObserver((enteries) => {
-      enteries.forEach((entery) => {
-        setVisible(entery.isIntersecting);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        entry.isIntersecting && setVisible(true);
       });
     });
     observer.observe(documentRef.current);
