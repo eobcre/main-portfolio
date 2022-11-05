@@ -21,8 +21,8 @@ const Home = () => {
 
       {/* Card */}
       <div className="glass mx-auto w-380 md:w-600">
-        <span className="md:absolute bottom-3/4 -left-12 rotate-12 w-24 h-8 bg-dark-pink md:border-l-2 md:border-r-2 border-dotted"></span>
-        <span className="md:absolute bottom-2/4 -right-12 -rotate-12 w-24 h-8 bg-dark-pink md:border-l-2 md:border-r-2 border-dotted"></span>
+        <span className="md:absolute bottom-3/4 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 border-dotted"></span>
+        <span className="md:absolute bottom-2/4 -right-12 -rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 border-dotted"></span>
         <main className="max-w-21 mx-auto">
           {/* GitHub */}
           <div className="grid grid-cols-10 mt-6">
