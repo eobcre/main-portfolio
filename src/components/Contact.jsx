@@ -1,6 +1,5 @@
 import React from "react";
 import EmailJS from "emailjs-com";
-import LinkedIn from "../img/skillset/linkedin.svg";
 
 export default function Contact(props) {
   const sendEmail = (e) => {
