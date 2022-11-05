@@ -28,24 +28,25 @@ export default function Contact(props) {
       <div className="mx-auto w-4/5">
         <p className="sub-st">Contact</p>
         <div className="glass px-8">
-          <span className="hidden absolute md:block md:top-10 -right-12 -rotate-12 w-24 h-8 bg-dark-pink md:border-l-2 md:border-r-2 md:border-dotted"></span>
-          <span className="hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-dark-pink md:border-l-2 md:border-r-2 md:border-dotted"></span>
+          <span className="hidden absolute md:block md:top-10 -right-12 -rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted"></span>
+          <span className="hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted"></span>
           <form onSubmit={sendEmail} required>
             {/* Title */}
-            <h1 className="text-dark-gray text-2xl tracking-wide text-center pt-5 md:text-3xl">
-              {props.title}
+            <h1 className="text-dark-gray text-2xl tracking-wide text-center py-5 md:text-3xl">
+              <p>
+                Feel free to contact or connect me on{" "}
+                <a
+                  href="https://www.linkedin.com/in/emmymanning"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 hover:opacity-70"
+                >
+                  LinkedIn
+                </a>
+                .
+                <br />I will get back to you as soon as possible.
+              </p>
             </h1>
-            <a
-              href="https://www.linkedin.com/in/emmymanning"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={LinkedIn}
-                alt="Icon"
-                className="mx-auto pt-2 pb-4 hover:opacity-70"
-              />
-            </a>
             {/* "Name" field */}
             <div className="py-2">
               <input
