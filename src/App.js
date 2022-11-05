@@ -16,7 +16,7 @@ const App = () => {
         <MyWork />
       </section>
       <section id="Contact">
-        <Contact name="Send Message" title="Let's Connect!" />
+        <Contact name="Send Message" />
       </section>
       <Footer />
     </div>
