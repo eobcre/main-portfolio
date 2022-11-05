@@ -25,7 +25,7 @@ export default function Contact(props) {
   // JSX
   return (
     <div className="bg-light-blue h-auto py-20">
-      <div className="mx-auto w-4/5 md:w-3/4">
+      <div className="mx-auto w-4/5">
         <p className="sub-st">Contact</p>
         <div className="glass px-8">
           <span className="hidden absolute md:block md:top-10 -right-12 -rotate-12 w-24 h-8 bg-dark-pink md:border-l-2 md:border-r-2 md:border-dotted"></span>
@@ -79,8 +79,11 @@ export default function Contact(props) {
             </div>
             {/* Button */}
             <div className="text-center pt-4 pb-6">
-              <button className="button px-12 py-2" type="submit">
-                <span className="text text-dark-gray">{props.name}</span>
+              <button
+                className="button px-12 py-2 bg-dark-gray text-white hover:bg-transparent hover:text-dark-gray"
+                type="submit"
+              >
+                <span className="text">{props.name}</span>
                 <div className="pen_1"></div>
                 <div className="pen_2"></div>
               </button>
