@@ -107,7 +107,7 @@ const About = (props) => {
       <div className="w-4/5 mx-auto py-16">
         <p className="sub-st">Education</p>
         <FadeIn>
-          <p className="bio-st w-2/4">
+          <p className="bio-st md:w-2/4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
             nesciunt temporibus reiciendis nobis distinctio libero rem nam
             accusantium aperiam corporis perferendis, harum vitae. Excepturi
