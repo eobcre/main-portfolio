@@ -31,7 +31,7 @@ export default function Contact(props) {
           <span className="hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted"></span>
           <form onSubmit={sendEmail} required>
             {/* Title */}
-            <h1 className="text-dark-gray text-2xl tracking-wide text-center py-5 md:text-3xl">
+            <h1 className="text-dark-gray text-2xl text-center py-5 md:text-3xl">
               <p>
                 Feel free to contact or connect me on{" "}
                 <a
