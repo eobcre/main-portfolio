@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./components/Home";
 import About from "./components/About";
-import Projects from "./components/Projects";
+import MyWork from "./components/MyWork";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -10,13 +10,13 @@ const App = () => {
     <div>
       <Home />
       <section id="About">
-        <About title="Hi, I'm Emmy." />
+        <About />
       </section>
       <section id="Projects">
-        <Projects />
+        <MyWork />
       </section>
       <section id="Contact">
-        <Contact name="Send Message" title="Contact" />
+        <Contact name="Send Message" title="Let's Connect!" />
       </section>
       <Footer />
     </div>
