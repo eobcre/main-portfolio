@@ -40,7 +40,7 @@ const About = (props) => {
               href={PDF}
               target="_blank"
               rel="noopener noreferrer"
-              className="button px-20 py-2"
+              className="button px-20 py-2 bg-dark-gray text-white hover:bg-transparent hover:text-dark-gray"
             >
               <span className="text">Resume</span>
               <div className="pen_1"></div>
@@ -49,7 +49,7 @@ const About = (props) => {
           </div>
         </div>
         {/* My Skills */}
-        <div className="MySkills py-20 md:w-2/4">
+        <div className="py-20 md:w-2/4">
           <p className="sub-st">My Skills</p>
           <div className="grid grid-cols-3 md:grid md:grid-cols-5">
             <figure className="fig-st">
@@ -107,7 +107,7 @@ const About = (props) => {
       <div className="w-4/5 mx-auto py-16">
         <p className="sub-st">Education</p>
         <FadeIn>
-          <p className="bio-st">
+          <p className="bio-st w-2/4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
             nesciunt temporibus reiciendis nobis distinctio libero rem nam
             accusantium aperiam corporis perferendis, harum vitae. Excepturi
