@@ -31,21 +31,22 @@ export default function Contact(props) {
           <span className="hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted"></span>
           <form onSubmit={sendEmail} required>
             {/* Title */}
-            <h1 className="text-dark-gray text-2xl text-center py-5 md:text-3xl">
-              <p>
-                Feel free to contact or connect me on{" "}
-                <a
-                  href="https://www.linkedin.com/in/emmymanning"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline underline-offset-4 hover:opacity-70"
-                >
-                  LinkedIn
-                </a>
-                .
-                <br />I will get back to you as soon as possible.
-              </p>
+            <h1 className="text-dark-gray text-2xl text-center py-4 md:text-3xl">
+              Let's Connect
             </h1>
+            <p className="text-2xl text-dark-gray opacity-90 text-center font-pathway pb-4">
+              Feel free to contact or connect me on{" "}
+              <a
+                href="https://www.linkedin.com/in/emmymanning"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl font-pathway uppercase underline underline-offset-4 hover:opacity-50"
+              >
+                LinkedIn
+              </a>
+              .
+              <br />I will get back to you as soon as possible.
+            </p>
             {/* "Name" field */}
             <div className="py-2">
               <input
