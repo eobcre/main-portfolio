@@ -1,32 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* All */
 * {
   font-family: "Bebas Neue", cursive;
 }
 
-/* Font */
-@font-face {
-  src: url("./Font.woff") format("woff");
-  font-family: "Bebas Neue";
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 /* Tailwind */
@@ -43,12 +27,16 @@ code {
     @apply mx-auto text-center py-3 text-dark-gray;
   }
 
+  .figca-st {
+    @apply text-dark-gray opacity-70 tracking-wider;
+  }
+
   .bio-st {
-    @apply text-2xl;
+    @apply text-dark-gray opacity-90 text-2xl;
   }
 
   .contact-st {
-    @apply px-2 py-2 placeholder-gray-400 text-base text-gray-600 relative bg-white rounded border-0 shadow outline-none focus:outline-none focus:ring w-full md:px-3 md:py-3;
+    @apply px-2 py-2 placeholder-gray-400 text-base text-gray-600 tracking-wider relative bg-white rounded border-0 shadow outline-none focus:outline-none focus:ring w-full md:px-3 md:py-3;
   }
 
   /* Glassmorphism */
