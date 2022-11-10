@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light-gray": "#808080",
         "light-blue": "#34C7F2",
         "dark-gray": "#303030",
         "off-white": "#FFFFFE",
@@ -23,6 +22,9 @@ module.exports = {
       },
       maxWidth: {
         21: "21rem",
+      },
+      fontFamily: {
+        pathway: ["Pathway Gothic One", "sans-serif"],
       },
       fontSize: {
         "5xl": "2.75rem",
