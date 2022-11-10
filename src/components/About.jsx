@@ -1,19 +1,6 @@
 import React from "react";
 import { FadeIn } from "./FadeIn";
-import PDF from "../Resume.pdf";
-// Skillsets
-import HTML from "../img/skillset/html.svg";
-import CSS from "../img/skillset/css.svg";
-import Sass from "../img/skillset/sass.svg";
-import Tailwind from "../img/skillset/tailwind.svg";
-import NodeJS from "../img/skillset/nodejs.svg";
-import JS from "../img/skillset/js.svg";
-import PY from "../img/skillset/py.svg";
-import ReactIcon from "../img/skillset/react.svg";
-import GitHub from "../img/skillset/github.svg";
-import Git from "../img/skillset/git.svg";
-import VS from "../img/skillset/vs.svg";
-import R from "../img/skillset/r.svg";
+import PDF from "../pdf/resume.pdf";
 
 const About = (props) => {
   return (
@@ -22,7 +9,7 @@ const About = (props) => {
         <div className="py-20 md:w-2/4">
           <p className="sub-st">About Me</p>
           <FadeIn>
-            <p className="bio-st">
+            <p className="bio-st font-pathway">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
               nesciunt temporibus reiciendis nobis distinctio libero rem nam
               accusantium aperiam corporis perferendis, harum vitae. Excepturi
@@ -51,55 +38,52 @@ const About = (props) => {
         {/* My Skills */}
         <div className="py-20 md:w-2/4">
           <p className="sub-st">My Skills</p>
-          <div className="grid grid-cols-3 md:grid md:grid-cols-5">
-            <figure className="fig-st">
-              <img src={JS} alt="JSLogo" />
-              <figcaption className="text-sm">JavaScript</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={PY} alt="PYLogo" />
-              <figcaption className="text-sm">Python</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={HTML} alt="HTMLIcon" />
-              <figcaption className="text-sm">HTML</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={CSS} alt="CSSIcon" />
-              <figcaption className="text-sm">CSS</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={Sass} alt="SassIcon" />
-              <figcaption className="text-sm">Sass</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={Tailwind} alt="TailwindIcon" />
-              <figcaption className="text-sm">Tailwind</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={NodeJS} alt="NodeJSIcon" />
-              <figcaption className="text-sm">Node JS</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={ReactIcon} alt="ReactIcon" />
-              <figcaption className="text-sm">React</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={Git} alt="GitIcon" />
-              <figcaption className="text-sm">Git</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={GitHub} alt="GitHubIcon" />
-              <figcaption>GitHub</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={VS} alt="VSIcon" />
-              <figcaption className="text-sm">Visual Studio</figcaption>
-            </figure>
-            <figure className="fig-st">
-              <img src={R} alt="RIcon" />
-              <figcaption className="text-sm">R</figcaption>
-            </figure>
+          <div className="flex flex-wrap gap-4">
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              HTML
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              CSS
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              SASS
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Tailwind
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              JavaScript
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Python
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Node JS
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              React
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Vue
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Git
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              GitHub
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Visual Studio
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray px-8 h-8 leading-loose">
+              R
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Adobe Photo Shop
+            </p>
+            <p className="bg-clear-tape border-l-2 border-r-2 border-dotted text-lg text-dark-gray tracking-wide px-8 h-8 leading-loose">
+              Adobe Illustrator
+            </p>
           </div>
         </div>
       </div>
@@ -107,7 +91,13 @@ const About = (props) => {
       <div className="w-4/5 mx-auto py-16">
         <p className="sub-st">Education</p>
         <FadeIn>
-          <p className="bio-st md:w-2/4">
+          <p className="bio-st font-pathway md:w-2/4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            nesciunt temporibus reiciendis nobis distinctio libero rem nam
+            accusantium aperiam corporis perferendis, harum vitae. Excepturi
+            impedit ad, error amet blanditiis rem!
+            <br />
+            <br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
             nesciunt temporibus reiciendis nobis distinctio libero rem nam
             accusantium aperiam corporis perferendis, harum vitae. Excepturi
