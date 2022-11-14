@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from 'react';
 
 export const FadeIn = (props) => {
   const [isVisible, setVisible] = useState(false);
@@ -12,11 +12,11 @@ export const FadeIn = (props) => {
     });
     observer.observe(documentRef.current);
   }, []);
-
+  //  JSX
   return (
     <div
       ref={documentRef}
-      className={`FadeIn ${isVisible ? "is-visible" : ""}`}
+      className={`FadeIn ${isVisible ? 'is-visible' : ''}`}
     >
       {props.children}
     </div>

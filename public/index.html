@@ -3,23 +3,75 @@
   <head>
     <meta charset="utf-8" />
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/assets/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="./index.css"
+      media="print"
+      onload="this.media='all'"
     />
     <title>Emmy Manning</title>
+    <!-- Preloader styles -->
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #34caf4;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .loading {
+        animation: zoom 2s infinite ease-in-out;
+        -webkit-animation: zoom 2s infinite ease-in-out;
+      }
+
+      @keyframes zoom {
+        0% {
+          transform: scale(0);
+          -webkit-transform: scale(0);
+        }
+        100% {
+          transform: scale(1);
+          -webkit-transform: scale(1);
+        }
+      }
+    </style>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Preloader -->
+    <div id="zoomer" class="container">
+      <img class="loading" src="logo.png" alt="Logo" />
+      <p class="text-4xl text-dark-gray font-bebas">Emmy Manning</p>
+    </div>
     <div id="root"></div>
   </body>
 </html>

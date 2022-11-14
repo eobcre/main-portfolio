@@ -1,35 +1,35 @@
-import { useState } from "react";
+import { useState } from 'react';
 // React-scroll
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 // Icons
-import { HiMenuAlt4, HiX } from "react-icons/hi";
-import Logo from "../img/logo/logo.svg";
+import { HiMenuAlt4, HiX } from 'react-icons/hi';
+import Logo from '../assets/logo.png';
 // PDF
-import PDF from "../Resume.pdf";
+import PDF from '../assets/resume.pdf';
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
   const toggle = () => setNavbar(!navbar);
   const hide = () => setNavbar(false);
   const show = () => setNavbar(true);
-
+  // JSX
   return (
-    <nav className="fixed top-0 z-10">
-      <div className="glass w-screen justify-between px-4 mx-auto md:items-center md:flex md:px-8">
+    <nav className='fixed top-0 z-10'>
+      <div className='glass w-screen justify-between px-4 mx-auto md:items-center md:flex md:px-8'>
         <div>
-          <div className="flex items-center justify-between py-2 md:block">
-            <a href="./">
-              <img src={Logo} alt="Logo" width="40" height="40" />
+          <div className='flex items-center justify-between py-2 md:block'>
+            <a href='./'>
+              <img src={Logo} alt='Logo' width='40' height='40' />
             </a>
-            <div className="md:hidden">
+            <div className='md:hidden'>
               <button
-                className="p-2 text-white rounded-md outline-none"
+                className='p-2 text-white rounded-md outline-none'
                 onClick={toggle}
               >
                 {navbar ? (
-                  <HiX className="text-4xl" /> // Close icon
+                  <HiX className='text-4xl' /> // Close icon
                 ) : (
-                  <HiMenuAlt4 className="text-4xl" /> // Open icon
+                  <HiMenuAlt4 className='text-4xl' /> // Open icon
                 )}
               </button>
             </div>
@@ -38,14 +38,14 @@ export default function Header() {
         <div>
           <div
             className={`flex-1 justify-self-center pb-8 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
+              navbar ? 'block' : 'hidden'
             }`}
           >
-            <ul className="text-dark-gray items-center justify-center space-y-8 md:text-white md:flex md:space-x-6 md:space-y-0">
-              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
+            <ul className='text-dark-gray font-bebas items-center justify-center space-y-8 md:text-white md:flex md:space-x-6 md:space-y-0'>
+              <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
                 <Link
-                  activeClass="active"
-                  to="About"
+                  activeClass='active'
+                  to='About'
                   spy={true}
                   smooth={true}
                   offset={-60}
@@ -57,10 +57,10 @@ export default function Header() {
                   About
                 </Link>
               </li>
-              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
+              <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
                 <Link
-                  activeClass="active"
-                  to="Projects"
+                  activeClass='active'
+                  to='Projects'
                   spy={true}
                   smooth={true}
                   offset={-60}
@@ -72,10 +72,10 @@ export default function Header() {
                   My Work
                 </Link>
               </li>
-              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
+              <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
                 <Link
-                  activeClass="active"
-                  to="Contact"
+                  activeClass='active'
+                  to='Contact'
                   spy={true}
                   smooth={true}
                   offset={-60}
@@ -87,8 +87,8 @@ export default function Header() {
                   Contact
                 </Link>
               </li>
-              <li className="text-center text-xl hover:opacity-40 2xl:text-2xl">
-                <a href={PDF} target="_blank" rel="noopener noreferrer">
+              <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
+                <a href={PDF} target='_blank' rel='noopener noreferrer'>
                   Resume
                 </a>
               </li>
@@ -96,8 +96,10 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="side fixed bottom-0 text-dark-gray text-2xl px-4 py-8">
-        <p className="hidden md:block">&copy; 2023 Emmy Manning</p>
+      <div className='side fixed bottom-0 text-dark-gray text-2xl px-4 py-8'>
+        <p className='hidden md:block md:font-bebas'>
+          &copy; 2023 Emmy Manning
+        </p>
       </div>
     </nav>
   );
