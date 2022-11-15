@@ -13,13 +13,12 @@ const About = (props) => {
           <p className='sub-st'>About Me</p>
           <FadeIn>
             <p className='bio-st font-arial'>
-              Hello! My name is Emmy and I enjoy creating magical things. I'm
-              currently attending college majoring in AI technology, and
-              expecting to graduate in April, 2023. I have experience working in
-              the IT industry and I'm skilled in coding and designing. I've had
-              the privilege of working on map alignments and survey app
-              developing. I'm always passionate about creative coding and
-              curious about learning new technologies! See my resume for
+              Hello! My name is Emmy and I enjoy creating magical things. I'm a
+              recent graduate (April 2023) in AI technology. I have experience
+              working in the IT industry and I'm skilled in coding and
+              designing. I've had the privilege of working on map alignments and
+              survey app developing. I'm always passionate about creative coding
+              and curious about learning new technologies! See my resume for
               additional details.
             </p>
           </FadeIn>
@@ -64,12 +63,14 @@ const About = (props) => {
         <p className='sub-st'>Education</p>
         <FadeIn>
           <p className='bio-st font-arial md:w-2/4'>
-            During my school time, my major was focused on statistics, software
-            developments, AI algorithms and programming. My senior project that
-            I'm working on is about Natural Process Language using Python
-            modules, libraries, and developing a dialogue agent app. Besides the
-            school work, I've spent most of my time on front-end programming,
-            which I've taught myself.
+            At school, I focused on software development, AI algorithms and
+            programming. My senior project covers NLP and I am developing a
+            dialogue agent app with other students by sharing resources.
+            Additionally, I've spent most of my time on front-end programming,
+            which I've taught myself. They are all built in HTML, CSS and
+            JavaScript in React and Vue. I started building them from a small
+            app to websites. See my work below. I enjoy building and learning at
+            the same time!
           </p>
         </FadeIn>
       </div>
