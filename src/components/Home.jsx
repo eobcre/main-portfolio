@@ -1,6 +1,4 @@
 import React from 'react';
-// Components
-import Header from './Header';
 // Images
 import Brackets from '../assets/brackets.png';
 import Bracket from '../assets/bracket.png';
@@ -10,15 +8,13 @@ const Home = () => {
   // JSX
   return (
     <div className='w-screen h-screen bg-webTop bg-center bg-zoom table-cell align-middle'>
-      <Header />
-      {/* Main contents */}
       <div className='text-center py-8'>
-        <p className='fadeup box text-7xl text-dark-gray font-bebas py-4'>
+        <h1 className='fadeup box text-7xl text-dark-gray font-bebas py-4'>
           Emmy Manning
-        </p>
-        <p className='fadeup box delay_1 text-xl text-dark-gray font-bebas'>
+        </h1>
+        <h2 className='fadeup box delay_1 text-xl text-dark-gray font-bebas'>
           Love to build creative and magical things
-        </p>
+        </h2>
       </div>
 
       {/* Card */}
