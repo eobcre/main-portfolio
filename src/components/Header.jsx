@@ -48,7 +48,7 @@ export default function Header() {
                   to='About'
                   spy={true}
                   smooth={true}
-                  offset={-60}
+                  offset={-50}
                   duration={500}
                   onClick={toggle}
                   onBlur={hide}
@@ -60,7 +60,7 @@ export default function Header() {
               <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
                 <Link
                   activeClass='active'
-                  to='Projects'
+                  to='MyWork'
                   spy={true}
                   smooth={true}
                   offset={-60}
