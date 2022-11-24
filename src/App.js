@@ -1,5 +1,6 @@
 import { useState } from 'react';
 // Components
+import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import MyWork from './components/MyWork';
@@ -20,6 +21,7 @@ const App = () => {
   return (
     !loading && (
       <div>
+        <Header />
         <Home />
         <section id='About'>
           <About />
