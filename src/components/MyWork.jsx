@@ -1,77 +1,88 @@
 import React from 'react';
+// Components
+import Button from './Button';
 // Icons
 import TodoLogo from '../assets/to-do.png';
 import CaitzLogo from '../assets/caitz.png';
-// import Test from "../img/assets/test.png";
-// import Test_2 from "../img/assets/test_2.png";
+import WeatherLogo from '../assets/weather.jpg';
+import TodoApp from '../assets/to-do-app.png';
+import WeatherApp from '../assets/weather-app.png';
 
 const MyWork = (prop) => {
   // JSX
   return (
     <div className='h-auto bg-light-blue py-20'>
       <div className='mx-auto w-4/5'>
-        <p className='sub-st mb-16'>My Work</p>
-
-        {/* flex 1 */}
-        <div className='gap-8 md:flex md:justify-center'>
-          <div className='glass w-auto md:w-96'>
-            <span className='absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
-            <div className='px-4 pt-4'>
-              <img src={TodoLogo} alt='Logo' width='100' height='100' />
-              <h1 className='my-work-title-st'>
-                To-do App
-                <hr></hr>
-              </h1>
-              <p className='my-work-st'>
-                It's a simple to-do app created in Vanila HTML, CSS and
-                JavaScript. I found a good turtorial to practice, it was a fun
-                experience. You can add the tasks, edit and delete from the task
-                list. Try it!
-              </p>
-            </div>
+        <h1 className='sub-st mb-16'>My Work</h1>
+        {/* To-do app */}
+        <div className='md:flex gap-10 mt-28'>
+          <div className='w-auto backdrop-blur md:w-2/4'>
+            <span className='hidden md:block absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
+            <img className='hidden md:block' src={TodoApp} alt='WebImage' />
           </div>
-          {/* <img className="hidden md:block md:w-2/4" src={Test_2} alt="SS" /> */}
-        </div>
-
-        {/* flex 2 */}
-        <div className='gap-8 mt-16 md:flex md:justify-center md:mt-28'>
-          {/* <img className="hidden md:block md:w-2/4" src={Test} alt="SS" /> */}
-          <div className='glass w-auto mt-16 md:w-96 md:-mt-0'>
-            <span className='absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
-            <div className='px-4 pt-4'>
-              <img src={CaitzLogo} alt='Logo' width='100' height='100' />
-              <h1 className='my-work-title-st'>
-                Salon
-                <hr></hr>
-              </h1>
-              <p className='my-work-st'>
-                The website was made for my friend who is a hair stylist in San
-                Diego, CA. It is actually the first website that I created and I
-                re-created in Vite Vue. She has exellent skills and technique.
-                Check it out!
-              </p>
-            </div>
+          <div className='md:w-2/4'>
+            <img
+              className='md:hidden'
+              src={TodoLogo}
+              alt='Logo'
+              width='100'
+              height='100'
+            />
+            <h2 className='my-work-title-st'>To-do App</h2>
+            <p className='my-work-st'>
+              It's a simple to-do web app created in HTML, CSS and Vanila
+              JavaScript. Create your to-do tasks and save in the list. Edit
+              when you want to change and delete when you're done!
+            </p>
+            <Button name='See The App' link='#' />
           </div>
         </div>
-
-        {/* flex 3 */}
-        <div className='gap-8 md:flex md:justify-center md:mt-28'>
-          <div className='glass w-auto mt-16 md:w-96 md:-mt-0'>
-            <span className='absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
-            <div className='px-4 pt-4'>
-              <img src={CaitzLogo} alt='Logo' width='100' height='100' />
-              <h1 className='my-work-title-st'>
-                Weather App
-                <hr></hr>
-              </h1>
-              <p className='my-work-st'>
-                It's an weather app created in Typescript, Vite React. Using the
-                weather API to display the world's weather. It was a great
-                experience learning Typescript and API structure.
-              </p>
-            </div>
+        {/* Salon website */}
+        <div className='md:flex gap-10 mt-28'>
+          <div className='w-auto backdrop-blur md:w-2/4'>
+            <span className='hidden md:block absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
+            <img className='hidden md:block' src={WeatherApp} alt='WebImage' />
           </div>
-          {/* <img className="hidden md:block md:w-2/4" src={Test} alt="SS" /> */}
+          <div className='md:w-2/4'>
+            <img
+              className='md:hidden'
+              src={CaitzLogo}
+              alt='Logo'
+              width='100'
+              height='100'
+            />
+            <h2 className='my-work-title-st'>Salon Website</h2>
+            <p className='my-work-st'>
+              The website was made for my friend who is a hair stylist in San
+              Diego, CA. It is actually the first website that I created and
+              re-created in Vite Vue, styled in Sass. She has exellent skills
+              and technique. Check it out!
+            </p>
+            <Button name='See The App' link='#' />
+          </div>
+        </div>
+        {/* Weather app */}
+        <div className='md:flex gap-10 mt-28'>
+          <div className='w-auto backdrop-blur md:w-2/4'>
+            <span className='hidden md:block absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
+            <img className='hidden md:block' src={WeatherApp} alt='WebImage' />
+          </div>
+          <div className='md:w-2/4'>
+            <img
+              className='md:hidden'
+              src={WeatherLogo}
+              alt='Logo'
+              width='100'
+              height='100'
+            />
+            <h2 className='my-work-title-st'>Weather App</h2>
+            <p className='my-work-st'>
+              It's an weather app created in Typescript, Vite React and styled
+              in Tailwind. Using the weather API to display the world's weather.
+              It was a great experience learning Typescript and API structure.
+            </p>
+            <Button name='See The App' link='#' />
+          </div>
         </div>
       </div>
     </div>
