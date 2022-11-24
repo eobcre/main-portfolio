@@ -1,6 +1,8 @@
 import React from 'react';
 // EmailJS
 import EmailJS from 'emailjs-com';
+// Components
+import ButtonSubmit from './ButtonSubmit';
 
 export default function Contact(props) {
   const sendEmail = (e) => {
@@ -25,16 +27,16 @@ export default function Contact(props) {
   return (
     <div className='bg-light-blue h-auto py-20'>
       <div className='mx-auto w-4/5'>
-        <p className='sub-st'>Contact</p>
+        <h1 className='sub-st'>Contact</h1>
         <div className='glass px-8'>
           <span className='hidden absolute md:block md:top-10 -right-12 -rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted'></span>
           <span className='hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted'></span>
           <form onSubmit={sendEmail} required>
             {/* Title */}
-            <h1 className='text-dark-gray text-2xl text-center font-bebas py-4 md:text-3xl'>
+            <h2 className='text-dark-gray text-2xl text-center font-bebas pt-8 md:text-3xl'>
               Lets Connect
-            </h1>
-            <p className='text-dark-gray text-lg opacity-90 text-center font-arial pb-4'>
+            </h2>
+            <p className='text-dark-gray text-lg opacity-90 text-center font-arial pb-8'>
               Feel free to contact or connect me on{' '}
               <a
                 href='https://www.linkedin.com/in/emmymanning'
@@ -68,7 +70,7 @@ export default function Contact(props) {
               />
             </div>
             {/* "Message" field */}
-            <div className='py-2'>
+            <div className='pt-2'>
               <textarea
                 placeholder='Message'
                 name='message'
@@ -78,17 +80,7 @@ export default function Contact(props) {
                 required
               />
             </div>
-            {/* Button */}
-            <div className='text-center pt-4 pb-6'>
-              <button
-                className='button px-12 py-2 bg-dark-gray text-white font-bebas hover:bg-transparent hover:text-dark-gray'
-                type='submit'
-              >
-                <span className='text'>{props.name}</span>
-                <div className='pen_1'></div>
-                <div className='pen_2'></div>
-              </button>
-            </div>
+            <ButtonSubmit name='Send Message' link='#' />
           </form>
         </div>
       </div>
