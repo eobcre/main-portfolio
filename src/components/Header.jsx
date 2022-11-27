@@ -10,8 +10,6 @@ import PDF from '../assets/resume.pdf';
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
   const toggle = () => setNavbar(!navbar);
-  const hide = () => setNavbar(false);
-  const show = () => setNavbar(true);
   // JSX
   return (
     <>
@@ -43,6 +41,7 @@ export default function Header() {
               }`}
             >
               <ul className='text-dark-gray font-bebas items-center justify-center space-y-8 md:text-white md:flex md:space-x-6 md:space-y-0'>
+                {/* About */}
                 <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
                   <Link
                     activeClass='active'
@@ -52,12 +51,11 @@ export default function Header() {
                     offset={-50}
                     duration={500}
                     onClick={toggle}
-                    onBlur={hide}
-                    onFocus={show}
                   >
                     About
                   </Link>
                 </li>
+                {/* My Work */}
                 <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
                   <Link
                     activeClass='active'
@@ -67,12 +65,11 @@ export default function Header() {
                     offset={-50}
                     duration={500}
                     onClick={toggle}
-                    onBlur={hide}
-                    onFocus={show}
                   >
                     My Work
                   </Link>
                 </li>
+                {/* Contact */}
                 <li className='text-center text-xl hover:opacity-40 2xl:text-2xl'>
                   <Link
                     activeClass='active'
@@ -82,8 +79,6 @@ export default function Header() {
                     offset={-50}
                     duration={500}
                     onClick={toggle}
-                    onBlur={hide}
-                    onFocus={show}
                   >
                     Contact
                   </Link>
