@@ -15,14 +15,14 @@ export default function Header() {
     <nav className='fixed top-0 z-10'>
       <div className='glass w-screen px-4 md:flex md:justify-between md:items-center'>
         {/* Logo */}
-        <div className='flex justify-between items-center py-2'>
+        <div className='flex justify-between items-center md:py-2'>
           <a href='./'>
             <img src={Logo} alt='Logo' width='40' height='40' />
           </a>
           {/* Mobile menu button */}
           <div className='md:hidden'>
             <button
-              className='text-white rounded-md outline-none p-2'
+              className='text-white rounded-md outline-none py-2'
               onClick={toggle}
             >
               {navbar ? (
