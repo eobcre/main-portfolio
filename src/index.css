@@ -13,6 +13,10 @@
 
 /* Tailwind */
 @layer components {
+  .nav-items-st {
+    @apply text-center text-xl hover:opacity-40 2xl:text-2xl;
+  }
+
   .effect-st {
     @apply text-lg text-dark-gray font-bebas hover:opacity-70 hover:underline underline-offset-4;
   }
