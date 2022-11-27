@@ -1,6 +1,6 @@
 import React from 'react';
 // Components
-import Button from './Button';
+import Button from '../components/Button';
 // Icons
 import TodoLogo from '../assets/to-do.png';
 import CaitzLogo from '../assets/caitz.png';

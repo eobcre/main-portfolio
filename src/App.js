@@ -1,11 +1,12 @@
 import { useState } from 'react';
 // Components
 import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import MyWork from './components/MyWork';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+// Sections
+import Home from './sections/Home';
+import About from './sections/About';
+import MyWork from './sections/MyWork';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 // Preloader
 const App = () => {
@@ -26,11 +27,11 @@ const App = () => {
         <section id='About'>
           <About />
         </section>
-        <section id='Projects'>
+        <section id='MyWork'>
           <MyWork />
         </section>
         <section id='Contact'>
-          <Contact name='Send Message' />
+          <Contact />
         </section>
         <Footer />
       </div>

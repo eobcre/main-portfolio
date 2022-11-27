@@ -1,6 +1,7 @@
 import React from 'react';
-// Component
-import { FadeIn } from './FadeIn';
+// Components
+import { FadeIn } from '../components/FadeIn';
+import Button from '../components/Button';
 // PDF
 import PDF from '../assets/resume.pdf';
 
@@ -10,7 +11,7 @@ const About = (props) => {
     <div className='h-auto bg-light-blue w-screen bg-zoom text-dark-gray'>
       <div className='md:flex gap-10 w-4/5 mx-auto'>
         <div className='py-20 md:w-2/4'>
-          <p className='sub-st'>About Me</p>
+          <h1 className='sub-st'>About Me</h1>
           <FadeIn>
             <p className='bio-st font-arial'>
               Hello! My name is Emmy and I enjoy creating magical things. I'm a
@@ -22,23 +23,11 @@ const About = (props) => {
               additional details.
             </p>
           </FadeIn>
-          {/* Button */}
-          <div className='flex items-center pt-8'>
-            <a
-              href={PDF}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='button px-20 py-2 bg-dark-gray text-white hover:bg-transparent hover:text-dark-gray'
-            >
-              <span className='text font-bebas'>Resume</span>
-              <div className='pen_1'></div>
-              <div className='pen_2'></div>
-            </a>
-          </div>
+          <Button name='Resume' link={PDF} />
         </div>
         {/* My Skills */}
         <div className='py-20 md:w-2/4'>
-          <p className='sub-st'>My Skills</p>
+          <h1 className='sub-st'>My Skills</h1>
           <div className='flex flex-wrap gap-4'>
             <p className='skill-st'>HTML</p>
             <p className='skill-st'>CSS</p>
@@ -57,22 +46,6 @@ const About = (props) => {
             <p className='skill-st'>Adobe Illustrator</p>
           </div>
         </div>
-      </div>
-      {/* Education */}
-      <div className='w-4/5 mx-auto py-16'>
-        <p className='sub-st'>Education</p>
-        <FadeIn>
-          <p className='bio-st font-arial md:w-2/4'>
-            At school, I focused on software development, AI algorithms and
-            programming. My senior project covers NLP and I am developing a
-            dialogue agent app with other students by sharing resources.
-            Additionally, I've spent most of my time on front-end programming,
-            which I've taught myself. They are all built in HTML, CSS and
-            JavaScript in React and Vue. I started building them from a small
-            app to websites. See my work below. I enjoy building and learning at
-            the same time!
-          </p>
-        </FadeIn>
       </div>
     </div>
   );

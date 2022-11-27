@@ -2,7 +2,7 @@ import React from 'react';
 // EmailJS
 import EmailJS from 'emailjs-com';
 // Components
-import ButtonSubmit from './ButtonSubmit';
+import ButtonSubmit from '../components/ButtonSubmit';
 
 export default function Contact(props) {
   const sendEmail = (e) => {
