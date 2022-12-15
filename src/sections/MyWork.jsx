@@ -3,7 +3,7 @@ import React from 'react';
 import Button from '../components/Button';
 // Icons
 import TodoLogo from '../assets/to-do.png';
-import CaitzLogo from '../assets/caitz.png';
+import SalonLogo from '../assets/salon.jpg';
 import WeatherLogo from '../assets/weather.jpg';
 import TodoApp from '../assets/to-do-app.png';
 import WeatherApp from '../assets/weather-app.png';
@@ -13,9 +13,9 @@ const MyWork = (prop) => {
   return (
     <div className='h-auto bg-light-blue py-20'>
       <div className='mx-auto w-4/5'>
-        <h1 className='sub-st mb-16'>My Work</h1>
+        <h1 className='sub-st md:mb-16'>My Work</h1>
         {/* To-do app */}
-        <div className='md:flex gap-10 mt-28'>
+        <div className='mt-18 md:flex md:gap-10 md:mt-28'>
           <div className='w-auto backdrop-blur md:w-2/4'>
             <span className='hidden md:block absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
             <img className='hidden md:block' src={TodoApp} alt='WebImage' />
@@ -46,7 +46,7 @@ const MyWork = (prop) => {
           <div className='md:w-2/4'>
             <img
               className='md:hidden'
-              src={CaitzLogo}
+              src={SalonLogo}
               alt='Logo'
               width='100'
               height='100'
