@@ -1,6 +1,7 @@
 import React from 'react';
 // Components
 import Button from '../components/Button';
+import { FadeIn } from '../components/FadeIn';
 // Icons
 import TodoLogo from '../assets/to-do.png';
 import SalonLogo from '../assets/salon.jpg';
@@ -29,11 +30,13 @@ const MyWork = (prop) => {
               height='100'
             />
             <h2 className='my-work-title-st'>To-do App</h2>
-            <p className='my-work-st'>
-              It's a simple to-do web app created in HTML, CSS and Vanila
-              JavaScript. Create your to-do tasks and save in the list. Edit
-              when you want to change and delete when you're done!
-            </p>
+            <FadeIn>
+              <p className='my-work-st'>
+                It's a simple to-do web app created in HTML, CSS and Vanila
+                JavaScript. Create your to-do tasks and save in the list. Edit
+                when you want to change and delete when you're done!
+              </p>
+            </FadeIn>
             <Button name='See The App' link='#' />
           </div>
         </div>
@@ -52,12 +55,14 @@ const MyWork = (prop) => {
               height='100'
             />
             <h2 className='my-work-title-st'>Salon Website</h2>
-            <p className='my-work-st'>
-              The website was made for my friend who is a hair stylist in San
-              Diego, CA. It is actually the first website that I created and
-              re-created in Vite Vue, styled in Sass. She has exellent skills
-              and technique. Check it out!
-            </p>
+            <FadeIn>
+              <p className='my-work-st'>
+                The website was made for my friend who is a hair stylist in San
+                Diego, CA. It is actually the first website that I created and
+                re-created in Vite Vue, styled in Sass. She has exellent skills
+                and technique. Check it out!
+              </p>
+            </FadeIn>
             <Button name='See The App' link='#' />
           </div>
         </div>
@@ -76,11 +81,14 @@ const MyWork = (prop) => {
               height='100'
             />
             <h2 className='my-work-title-st'>Weather App</h2>
-            <p className='my-work-st'>
-              It's an weather app created in Typescript, Vite React and styled
-              in Tailwind. Using the weather API to display the world's weather.
-              It was a great experience learning Typescript and API structure.
-            </p>
+            <FadeIn>
+              <p className='my-work-st'>
+                It's an weather app created in Typescript, Vite React and styled
+                in Tailwind. Using the weather API to display the world's
+                weather. It was a great experience learning Typescript and API
+                structure.
+              </p>
+            </FadeIn>
             <Button name='See The App' link='#' />
           </div>
         </div>
