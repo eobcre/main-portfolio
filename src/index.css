@@ -14,7 +14,7 @@
 /* Tailwind */
 @layer components {
   .nav-items-st {
-    @apply text-center text-xl hover:opacity-40 2xl:text-2xl;
+    @apply text-center text-xl hover:opacity-50 xl:text-2xl;
   }
 
   .effect-st {
@@ -34,11 +34,11 @@
   }
 
   .my-work-title-st {
-    @apply text-3xl text-dark-gray font-bebas pt-2 border-b;
+    @apply text-3xl text-dark-gray font-bebas pt-6 border-b;
   }
 
   .my-work-st {
-    @apply text-dark-gray text-lg opacity-90 font-arial my-4;
+    @apply text-dark-gray text-lg opacity-90 font-arial my-6;
   }
 
   .contact-st {
