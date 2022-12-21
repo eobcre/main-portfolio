@@ -4,7 +4,7 @@ import EmailJS from 'emailjs-com';
 // Components
 import ButtonSubmit from '../components/ButtonSubmit';
 
-export default function Contact(props) {
+const Contact = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -23,6 +23,7 @@ export default function Contact(props) {
     );
     e.target.reset();
   };
+
   // JSX
   return (
     <div className='bg-light-blue h-auto py-20'>
@@ -87,3 +88,5 @@ export default function Contact(props) {
     </div>
   );
 }
+
+export default Contact;
