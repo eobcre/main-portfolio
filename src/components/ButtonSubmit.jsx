@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ButtonSubmit = (props) => {
+export const ButtonSubmit = (props) => {
   return (
     <div className='flex justify-center py-8'>
       <button
@@ -14,5 +14,3 @@ const ButtonSubmit = (props) => {
     </div>
   );
 };
-
-export default ButtonSubmit;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Button = (prop) => {
+export const Button = (prop) => {
   return (
     <div className='flex items-center pt-8'>
       <a
@@ -16,5 +16,3 @@ const Button = (prop) => {
     </div>
   );
 };
-
-export default Button;

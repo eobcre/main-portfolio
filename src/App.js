@@ -1,15 +1,15 @@
 import { useState } from 'react';
 // Components
-import Header from './components/Header';
+import { Header } from './components/Header';
 // Sections
-import Home from './sections/Home';
-import About from './sections/About';
-import MyWork from './sections/MyWork';
-import Contact from './sections/Contact';
-import Footer from './sections/Footer';
+import { Home } from './sections/Home';
+import { About } from './sections/About';
+import { MyWork } from './sections/MyWork';
+import { Contact } from './sections/Contact';
+import { Footer } from './sections/Footer';
 
 // Preloader
-const App = () => {
+export const App = () => {
   const [loading, setLoading] = useState(true);
   const zoomer = document.getElementById('zoomer');
   if (zoomer) {
@@ -38,5 +38,3 @@ const App = () => {
     )
   );
 };
-
-export default App;
