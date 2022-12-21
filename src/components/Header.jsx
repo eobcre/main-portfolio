@@ -7,9 +7,10 @@ import Logo from '../assets/logo.png';
 // PDF
 import PDF from '../assets/resume.pdf';
 
-export default function Header() {
+const Header = () => {
   const [navbar, setNavbar] = useState(false);
   const toggle = () => setNavbar(!navbar);
+
   // JSX
   return (
     <nav className='fixed top-0 z-10'>
@@ -22,7 +23,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <div className='md:hidden'>
             <button
-              className='text-white rounded-md outline-none py-2'
+              className='text-dark-gray rounded-md outline-none py-2'
               onClick={toggle}
             >
               {navbar ? (
@@ -36,7 +37,7 @@ export default function Header() {
 
         {/* Nav list */}
         <div className={`pb-8 md:block md:pb-0 ${navbar ? 'block' : 'hidden'}`}>
-          <ul className='text-dark-gray font-bebas justify-center items-center space-y-8 md:text-white md:flex md:space-x-6 md:space-y-0'>
+          <ul className='text-dark-gray font-bebas justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0'>
             {/* About */}
             <li className='nav-items-st'>
               <Link
@@ -101,3 +102,5 @@ export default function Header() {
     </nav>
   );
 }
+
+export default Header;

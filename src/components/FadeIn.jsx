@@ -12,6 +12,7 @@ export const FadeIn = (props) => {
     });
     observer.observe(documentRef.current);
   }, []);
+
   //  JSX
   return (
     <div
