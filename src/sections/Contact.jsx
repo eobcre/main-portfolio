@@ -2,9 +2,9 @@ import React from 'react';
 // EmailJS
 import EmailJS from 'emailjs-com';
 // Components
-import ButtonSubmit from '../components/ButtonSubmit';
+import { ButtonSubmit } from '../components/ButtonSubmit';
 
-const Contact = (props) => {
+export const Contact = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -88,5 +88,3 @@ const Contact = (props) => {
     </div>
   );
 }
-
-export default Contact;

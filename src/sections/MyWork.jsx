@@ -1,6 +1,6 @@
 import React from 'react';
 // Components
-import Button from '../components/Button';
+import { Button } from '../components/Button';
 import { FadeIn } from '../components/FadeIn';
 // Icons
 import TodoLogo from '../assets/to-do.png';
@@ -9,7 +9,7 @@ import WeatherLogo from '../assets/weather.jpg';
 import TodoApp from '../assets/to-do-app.png';
 import WeatherApp from '../assets/weather-app.png';
 
-const MyWork = (prop) => {
+export const MyWork = (prop) => {
   // JSX
   return (
     <div className='h-auto bg-light-blue py-20'>
@@ -96,5 +96,3 @@ const MyWork = (prop) => {
     </div>
   );
 };
-
-export default MyWork;

@@ -1,11 +1,11 @@
 import React from 'react';
 // Components
 import { FadeIn } from '../components/FadeIn';
-import Button from '../components/Button';
+import { Button } from '../components/Button';
 // PDF
 import PDF from '../assets/resume.pdf';
 
-const About = (props) => {
+export const About = (props) => {
   // JSX
   return (
     <div className='h-auto bg-light-blue w-screen bg-zoom text-dark-gray'>
@@ -50,5 +50,3 @@ const About = (props) => {
     </div>
   );
 };
-
-export default About;
