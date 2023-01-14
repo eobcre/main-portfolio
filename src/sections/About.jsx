@@ -34,16 +34,12 @@ export const About = (props) => {
             <p className='skill-st'>SASS</p>
             <p className='skill-st'>Tailwind</p>
             <p className='skill-st'>JavaScript</p>
-            <p className='skill-st'>Python</p>
+            <p className='skill-st'>TypeScript</p>
             <p className='skill-st'>Node JS</p>
             <p className='skill-st'>React</p>
-            <p className='skill-st'>Vue</p>
             <p className='skill-st'>Git</p>
             <p className='skill-st'>GitHub</p>
             <p className='skill-st'>Visual Studio</p>
-            <p className='skill-st'>R</p>
-            <p className='skill-st'>Adobe Photo Shop</p>
-            <p className='skill-st'>Adobe Illustrator</p>
           </div>
         </div>
       </div>
