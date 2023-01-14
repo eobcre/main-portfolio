@@ -33,8 +33,7 @@ export const MyWork = (prop) => {
             <FadeIn>
               <p className='my-work-st'>
                 It's a simple to-do web app created in HTML, CSS and Vanila
-                JavaScript. Create your to-do tasks and save in the list. Edit
-                when you want to change and delete when you're done!
+                JavaScript. Create your to-do tasks and delete when you're done!
               </p>
             </FadeIn>
             <Button name='See The App' link='#' />
