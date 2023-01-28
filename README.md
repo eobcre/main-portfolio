@@ -2,6 +2,12 @@
 
 # main-portfolio
 
+- React (create-app)
+- Tailwind
+- react-icons
+- react-scroll
+- emailjs-com
+
 ## Run Locally
 
 ```
