@@ -1,4 +1,3 @@
-import React from 'react';
 // Components
 import { Button } from '../components/Button';
 import { FadeIn } from '../components/FadeIn';
@@ -10,7 +9,7 @@ import TodoApp from '../assets/to-do-app.png';
 import Salon from '../assets/salon.png';
 import WeatherApp from '../assets/weather-app.png';
 
-export const MyWork = (prop) => {
+export const MyWork = () => {
   // JSX
   return (
     <div className='h-auto bg-light-blue py-20'>
