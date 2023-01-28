@@ -2,7 +2,7 @@
 
 # main-portfolio
 
-- React (create-app)
+- React (create-react-app)
 - Tailwind
 - react-icons
 - react-scroll
