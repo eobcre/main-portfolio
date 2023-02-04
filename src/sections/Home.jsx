@@ -1,4 +1,3 @@
-import React from 'react';
 // Images
 import Brackets from '../assets/brackets.png';
 import Bracket from '../assets/bracket.png';
