@@ -1,10 +1,9 @@
-import React from 'react';
 // EmailJS
 import EmailJS from 'emailjs-com';
 // Components
 import { ButtonSubmit } from '../components/ButtonSubmit';
 
-export const Contact = (props) => {
+export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -87,4 +86,4 @@ export const Contact = (props) => {
       </div>
     </div>
   );
-}
+};
