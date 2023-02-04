@@ -1,14 +1,13 @@
-import React from 'react';
 // Components
 import { FadeIn } from '../components/FadeIn';
 import { Button } from '../components/Button';
 // PDF
 import PDF from '../assets/resume.pdf';
 
-export const About = (props) => {
+export const About = () => {
   // JSX
   return (
-    <div className='h-auto bg-light-blue w-screen bg-zoom text-dark-gray'>
+    <div className='h-auto bg-light-blue bg-zoom text-dark-gray'>
       <div className='md:flex gap-10 w-4/5 mx-auto'>
         <div className='py-20 md:w-2/4'>
           <h1 className='sub-st'>About Me</h1>
