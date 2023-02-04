@@ -12,7 +12,7 @@ import WeatherApp from '../assets/weather-app.png';
 export const MyWork = () => {
   // JSX
   return (
-    <div className='h-auto bg-light-blue py-20'>
+    <div className='bg-light-blue h-auto py-20'>
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st md:mb-16'>My Work</h1>
         {/* To-do app */}
@@ -58,8 +58,8 @@ export const MyWork = () => {
               <p className='my-work-st'>
                 The website was made for my friend who is a hair stylist in San
                 Diego, CA. It is actually the first website that I created and
-                re-created in Vite Vue, styled in Sass. She has exellent skills
-                and technique. Check it out!
+                re-created in Vite React, styled in Tailwind. She has exellent
+                skills and technique. Check it out!
               </p>
             </FadeIn>
             <Button name='See The App' link='#' />
