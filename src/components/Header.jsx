@@ -37,7 +37,7 @@ export const Header = () => {
 
         {/* Nav list */}
         <div className={`pb-8 md:block md:pb-0 ${navbar ? 'block' : 'hidden'}`}>
-          <ul className='text-dark-gray font-bebas justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0'>
+          <ul className='font-bebas justify-center items-center md:flex'>
             {/* About */}
             <li className='nav-items-st'>
               <Link
@@ -101,4 +101,4 @@ export const Header = () => {
       </div>
     </nav>
   );
-}
+};
