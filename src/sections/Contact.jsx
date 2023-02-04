@@ -80,7 +80,7 @@ export const Contact = () => {
                 required
               />
             </div>
-            <ButtonSubmit name='Send Message' link='#' />
+            <ButtonSubmit name='Send' link='#' />
           </form>
         </div>
       </div>
