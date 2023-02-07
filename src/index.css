@@ -14,7 +14,7 @@
 /* Tailwind */
 @layer components {
   .nav-items-st {
-    @apply text-center text-xl opacity-50 text-dark-gray hover:opacity-100 p-4 xl:text-2xl;
+    @apply text-center text-xl opacity-50 text-dark-gray hover:opacity-100 p-3 xl:text-2xl;
   }
 
   .effect-st {
