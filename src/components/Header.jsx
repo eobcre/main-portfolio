@@ -13,12 +13,12 @@ export const Header = () => {
 
   // JSX
   return (
-    <nav className='fixed top-0 z-10'>
-      <div className='glass w-screen px-4 md:flex md:justify-between md:items-center'>
+    <nav className='w-full fixed top-0 z-10'>
+      <div className='glass px-4 md:flex justify-between items-center'>
         {/* Logo */}
-        <div className='flex justify-between items-center md:py-2'>
+        <div className='flex justify-between items-center'>
           <a href='./'>
-            <img src={Logo} alt='Logo' width='40' height='40' />
+            <img src={Logo} alt='Logo' width='24' />
           </a>
           {/* Mobile menu button */}
           <div className='md:hidden'>
