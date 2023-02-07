@@ -25,7 +25,7 @@ export const Contact = () => {
 
   // JSX
   return (
-    <div className='bg-light-blue h-auto py-20'>
+    <div className='h-auto bg-light-blue py-20'>
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st'>Contact</h1>
         <div className='glass px-8'>

@@ -12,7 +12,7 @@ import WeatherApp from '../assets/weather-app.png';
 export const MyWork = () => {
   // JSX
   return (
-    <div className='bg-light-blue h-auto py-20'>
+    <div className='h-auto bg-light-blue py-20'>
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st md:mb-16'>My Work</h1>
         {/* To-do app */}
