@@ -1,5 +1,5 @@
 // EmailJS
-import EmailJS from 'emailjs-com';
+import EmailJS from '@emailjs/browser';
 // Components
 import { ButtonSubmit } from '../components/ButtonSubmit';
 
