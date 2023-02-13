@@ -1,7 +1,10 @@
-// EmailJS
-import EmailJS from '@emailjs/browser';
 // Components
 import { ButtonSubmit } from '../components/ButtonSubmit';
+// @emailjs/browser
+import EmailJS from '@emailjs/browser';
+// sweetalert2
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 
 export const Contact = () => {
   const sendEmail = (e) => {
@@ -21,6 +24,15 @@ export const Contact = () => {
       }
     );
     e.target.reset();
+
+    // Alert
+    const MySwal = withReactContent(Swal);
+
+    MySwal.fire({
+      title: 'Thank you!',
+      text: 'I will get back to you as soon as possible.',
+      icon: 'success',
+    });
   };
 
   // JSX
