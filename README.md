@@ -6,7 +6,7 @@
 - Tailwind
 - react-icons
 - react-scroll
-- emailjs-com
+- @emailjs/browser
 
 ## Run Locally
 
