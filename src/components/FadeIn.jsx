@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 export const FadeIn = (props) => {
-  const [isVisible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(false);
   const documentRef = useRef();
 
   useEffect(() => {
@@ -15,10 +15,7 @@ export const FadeIn = (props) => {
 
   //  JSX
   return (
-    <div
-      ref={documentRef}
-      className={`FadeIn ${isVisible ? 'is-visible' : ''}`}
-    >
+    <div ref={documentRef} className={`FadeIn ${visible ? 'is-visible' : ''}`}>
       {props.children}
     </div>
   );
