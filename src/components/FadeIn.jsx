@@ -6,7 +6,7 @@ export const FadeIn = (props) => {
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-      entries.map((entry) => {
+      entries.forEach((entry) => {
         return entry.isIntersecting && setVisible(true);
       });
     });
