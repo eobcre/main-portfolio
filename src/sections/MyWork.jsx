@@ -2,10 +2,12 @@
 import { Button } from '../components/Button';
 import { FadeIn } from '../components/FadeIn';
 // Icons
-import TodoLogo from '../assets/to-do.png';
-import SalonLogo from '../assets/salon.jpg';
 import TodoApp from '../assets/to-do-app.png';
+import TodoLogo from '../assets/to-do.png';
 import Salon from '../assets/salon.png';
+import SalonLogo from '../assets/salon.jpg';
+import OmikujiApp from '../assets/omikuji-app.png';
+import OmikujiLogo from '../assets/omikuji.png';
 
 export const MyWork = () => {
   // JSX
@@ -58,6 +60,32 @@ export const MyWork = () => {
                 Diego, CA. It is actually the first website that I created and
                 re-created in Vite React, styled in Tailwind. She has exellent
                 skills and technique. Check it out!
+              </p>
+            </FadeIn>
+            <Button name='See The App' link='#' />
+          </div>
+        </div>
+        {/* Omikuji */}
+        <div className='md:flex gap-10 mt-28'>
+          <div className='w-auto backdrop-blur md:w-2/4'>
+            <span className='hidden md:block absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
+            <img className='hidden md:block' src={OmikujiApp} alt='WebImage' />
+          </div>
+          <div className='md:w-2/4'>
+            <img
+              className='md:hidden'
+              src={OmikujiLogo}
+              alt='Logo'
+              width='100'
+              height='100'
+            />
+            <h2 className='my-work-title-st'>Omikuji</h2>
+            <FadeIn>
+              <p className='my-work-st'>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+                quidem repudiandae natus temporibus dolorum vero incidunt optio
+                vel ullam. Eaque tempora maiores inventore ullam. Repellat
+                dignissimos ipsum iste sunt suscipit.
               </p>
             </FadeIn>
             <Button name='See The App' link='#' />
