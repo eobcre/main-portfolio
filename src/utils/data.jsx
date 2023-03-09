@@ -4,20 +4,33 @@ export const data = [
     src: '../../work_assets/salon.png',
     logo: '../../work_assets/salon.jpg',
     description:
-      'The website was made for my friend who is a hair stylist in San Diego, CA. It is actually the first website that I created and re-created in Vite React, styled in Tailwind. She has exellent skills and technique. Check it out!',
+      'The website was made for my friend who is a hair stylist in San Diego, CA. She has exellent skills and technique. Check it out!',
+    tech1: 'React',
+    tech2: 'Vite',
+    tech3: 'Java Script',
+    tech4: 'HTML',
+    tech5: 'CSS',
   },
   {
     name: 'Omikuji',
     src: '../../work_assets/omikuji-app.png',
     logo: '../../work_assets/omikuji.png',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem repudiandae natus temporibus dolorum vero incidunt optio vel ullam. Eaque tempora maiores inventore ullam. Repellat dignissimos ipsum iste sunt suscipit.',
+      'Omikuji is a paper slip with the result of fortune-telling. It supposed to predict your future and they are in shrines / temples in Japan. Now you can try it on an app. Find out your fortune!',
+    tech1: 'React',
+    tech2: 'Vite',
+    tech3: 'Java Script',
+    tech4: 'HTML',
+    tech5: 'CSS',
   },
   {
     name: 'To-Do-App',
     src: '../../work_assets/to-do-app.png',
     logo: '../../work_assets/to-do.png',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem repudiandae natus temporibus dolorum vero incidunt optio vel ullam. Eaque tempora maiores inventore ullam. Repellat dignissimos ipsum iste sunt suscipit.',
+      'A web app to organize your to do, a list of tasks you need to complete. It is helpful in planning our daily tasks.',
+    tech1: 'JavaScript',
+    tech2: 'HTML',
+    tech3: 'CSS',
   },
 ];
