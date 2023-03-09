@@ -54,7 +54,7 @@ export const Contact = () => {
                 href='https://www.linkedin.com/in/emmymanning'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='font-bebas text-lg uppercase pl-0.5 hover:underline underline-offset-4 hover:opacity-70'
+                className='font-bebas text-lg uppercase pl-0.5 hover:underline underline-offset-4 hover:opacity-70 transition-all duration-300'
               >
                 LinkedIn
               </a>
