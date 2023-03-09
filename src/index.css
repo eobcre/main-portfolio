@@ -17,7 +17,7 @@
   }
 
   .sub-st {
-    @apply text-dark-gray text-3xl font-bebas border-l-4 px-3 mb-8 md:text-4xl;
+    @apply text-dark-gray text-3xl font-bebas border-l-4 px-3 md:text-4xl;
   }
 
   .bio-st {
@@ -29,7 +29,7 @@
   }
 
   .my-work-title-st {
-    @apply text-3xl text-dark-gray font-bebas pt-6 border-b;
+    @apply text-3xl text-dark-gray font-bebas pt-6 border-b md:pt-0;
   }
 
   .my-work-st {
