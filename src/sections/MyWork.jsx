@@ -2,13 +2,6 @@
 import { Button } from '../components/Button';
 import { FadeIn } from '../components/FadeIn';
 import { data } from '../utils/data';
-// Icons
-// import TodoApp from '../assets/to-do-app.png';
-// import TodoLogo from '../assets/to-do.png';
-// import Salon from '../assets/salon.png';
-// import SalonLogo from '../assets/salon.jpg';
-// import OmikujiApp from '../assets/omikuji-app.png';
-// import OmikujiLogo from '../assets/omikuji.png';
 
 export const MyWork = () => {
   // JSX
