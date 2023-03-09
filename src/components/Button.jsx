@@ -5,7 +5,7 @@ export const Button = (props) => {
         href={props.link}
         target='_blank'
         rel='noopener noreferrer'
-        className='bg-dark-gray text-white text-2xl hover:text-light-blue transition-all duration-300  px-20 py-2'
+        className='bg-dark-gray text-white text-2xl hover:text-light-blue transition-all duration-300 px-20 py-2'
       >
         <span className='text font-bebas'>{props.name}</span>
       </a>
