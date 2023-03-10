@@ -32,11 +32,11 @@ export const MyWork = () => {
                 <FadeIn>
                   <p className='my-work-st'>{description}</p>
                   <div className='flex gap-4'>
-                    <p className='text-white text-sm'>{tech1}</p>
-                    <p className='text-white text-sm'>{tech2}</p>
-                    <p className='text-white text-sm'>{tech3}</p>
-                    <p className='text-white text-sm'>{tech4}</p>
-                    <p className='text-white text-sm'>{tech5}</p>
+                    <p className='tech-st'>{tech1}</p>
+                    <p className='tech-st'>{tech2}</p>
+                    <p className='tech-st'>{tech3}</p>
+                    <p className='tech-st'>{tech4}</p>
+                    <p className='tech-st'>{tech5}</p>
                   </div>
                   <Button name='See The App' link='#' />
                 </FadeIn>
