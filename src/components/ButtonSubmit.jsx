@@ -5,7 +5,7 @@ export const ButtonSubmit = (props) => {
         className='bg-dark-gray font-bebas text-white text-2xl hover:text-light-blue transition-all duration-300 px-20 py-2'
         type='submit'
       >
-        <span className='text'>{props.name}</span>
+        <span>{props.name}</span>
       </button>
     </div>
   );
