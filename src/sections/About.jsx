@@ -10,7 +10,7 @@ export const About = () => {
     <div className='h-auto bg-light-blue bg-zoom text-dark-gray'>
       <div className='md:flex gap-10 w-4/5 mx-auto'>
         <div className='py-20 md:w-2/4'>
-          <h1 className='sub-st mb-8'>About Me</h1>
+          <h1 className='sub-st mb-10'>About Me</h1>
           <FadeIn>
             <p className='bio-st font-arial'>
               Hello! My name is Emmy and I enjoy creating magical things. I'm a
@@ -26,7 +26,7 @@ export const About = () => {
         </div>
         {/* My Skills */}
         <div className='py-20 md:w-2/4'>
-          <h1 className='sub-st mb-8'>My Skills</h1>
+          <h1 className='sub-st mb-10'>My Skills</h1>
           <div className='flex flex-wrap gap-4'>
             <p className='skill-st'>HTML</p>
             <p className='skill-st'>CSS</p>
