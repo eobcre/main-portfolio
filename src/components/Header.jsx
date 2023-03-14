@@ -18,7 +18,7 @@ export const Header = () => {
         {/* Logo */}
         <div className='flex justify-between items-center'>
           <a href='./'>
-            <img src={Logo} alt='Logo' width='24' />
+            <img src={Logo} alt='Logo' width='40' />
           </a>
           {/* Mobile menu button */}
           <div className='md:hidden'>
