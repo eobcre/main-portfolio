@@ -1,8 +1,8 @@
 // Components
 import { ButtonSubmit } from '../components/ButtonSubmit';
-// @emailjs/browser
+// Email JS
 import EmailJS from '@emailjs/browser';
-// sweetalert2
+// Sweet Alert 2
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 
@@ -43,6 +43,7 @@ export const Contact = () => {
         <div className='glass px-8'>
           <span className='hidden absolute md:block md:top-10 -right-12 -rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted'></span>
           <span className='hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted'></span>
+
           <form onSubmit={sendEmail} required>
             {/* Title */}
             <h2 className='text-dark-gray text-2xl text-center font-bebas pt-8 md:text-3xl'>

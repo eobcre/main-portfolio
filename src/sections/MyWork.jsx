@@ -9,7 +9,7 @@ export const MyWork = () => {
     <div className='h-auto bg-light-blue py-20'>
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st'>My Work</h1>
-        {/* work list */}
+        {/* Portfolio list data */}
         {data.map(
           (
             { name, src, logo, description, tech1, tech2, tech3, tech4, tech5 },

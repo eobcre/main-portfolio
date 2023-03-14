@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// React-scroll
+// React scroll
 import { Link } from 'react-scroll';
 // Icons
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
@@ -34,7 +34,6 @@ export const Header = () => {
             </button>
           </div>
         </div>
-
         {/* Nav list */}
         <div className={`pb-8 md:block md:pb-0 ${navbar ? 'block' : 'hidden'}`}>
           <ul className='font-bebas justify-center items-center md:flex'>
@@ -52,7 +51,6 @@ export const Header = () => {
                 About
               </Link>
             </li>
-
             {/* My Work */}
             <li className='nav-items-st'>
               <Link
@@ -67,7 +65,6 @@ export const Header = () => {
                 My Work
               </Link>
             </li>
-
             {/* Contact */}
             <li className='nav-items-st'>
               <Link
@@ -82,7 +79,6 @@ export const Header = () => {
                 Contact
               </Link>
             </li>
-
             {/* Resume */}
             <li className='nav-items-st'>
               <a href={PDF} target='_blank' rel='noopener noreferrer'>
@@ -92,7 +88,6 @@ export const Header = () => {
           </ul>
         </div>
       </div>
-
       {/* Copyright */}
       <div className='fixed bottom-0 text-dark-gray text-2xl [writing-mode:vertical-rl] [text-orientation:sideways-right] px-4 py-8'>
         <p className='hidden md:block md:font-bebas'>

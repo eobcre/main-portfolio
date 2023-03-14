@@ -43,18 +43,14 @@ export const Home = () => {
               </a>
             </span>
           </div>
-
           <img src={Brackets} alt='Icon' />
-
           {/* eobcre@emanning.dev */}
           <div>
             <p className='text-center text-5xl text-dark-gray font-bebas opacity-50'>
               eobcre@emanning.dev
             </p>
           </div>
-
           <img src={Bracket_2} alt='Icon' />
-
           {/* Instagram */}
           <div className='grid grid-cols-9'>
             <span className='effect-st col-end-8 col-span-2'>
@@ -67,9 +63,7 @@ export const Home = () => {
               </a>
             </span>
           </div>
-
           <img src={Bracket} alt='Icon' />
-
           {/* Email */}
           <div className='sub-email grid justify-center mb-4'>
             <span className='effect-st'>
