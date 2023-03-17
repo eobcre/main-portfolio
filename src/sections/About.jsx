@@ -13,13 +13,13 @@ export const About = () => {
           <h1 className='sub-st mb-10'>About Me</h1>
           <FadeIn>
             <p className='bio-st font-arial'>
-              Hello! My name is Emmy and I enjoy creating magical things. I'm a
-              recent graduate (April 2023) in AI technology. I have experience
-              working in the IT industry and I'm skilled in coding and
-              designing. I've had the privilege of working on map alignments and
-              survey app developing. I'm always passionate about creative coding
-              and curious about learning new technologies! See my resume for
-              additional details.
+              Hello! My name is Emmy and I enjoy creating magical things. I am a
+              recent graduate (as of April 2023) in AI technology. I have
+              experience working in the IT industry and am skilled in coding and
+              designing. I have had the privilege of working on map alignments
+              and survey app development. I am always passionate about creative
+              coding and curious about learning new technologies! See my resume
+              for additional details.
             </p>
           </FadeIn>
           <Button name='Resume' link={PDF} />
