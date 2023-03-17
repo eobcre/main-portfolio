@@ -50,7 +50,7 @@ export const Contact = () => {
               Lets Connect
             </h2>
             <p className='text-dark-gray text-lg opacity-90 text-center font-arial pb-8'>
-              Feel free to contact or connect me on{' '}
+              Please feel free to contact or connect me on{' '}
               <a
                 href='https://www.linkedin.com/in/emmymanning'
                 target='_blank'
