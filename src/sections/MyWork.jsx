@@ -1,6 +1,6 @@
 // Components
 import { Button } from '../components/Button';
-import { FadeIn } from '../components/FadeIn';
+import { ScrollFadeIn } from '../components/ScrollFadeIn';
 import { data } from '../utils/data';
 
 export const MyWork = () => {
@@ -29,7 +29,7 @@ export const MyWork = () => {
                   height='100'
                 />
                 <h2 className='my-work-title-st'>{name}</h2>
-                <FadeIn>
+                <ScrollFadeIn>
                   <p className='my-work-st'>{description}</p>
                   <div className='flex gap-4'>
                     <p className='tech-st'>{tech1}</p>
@@ -39,7 +39,7 @@ export const MyWork = () => {
                     <p className='tech-st'>{tech5}</p>
                   </div>
                   <Button name='See The App' link='#' />
-                </FadeIn>
+                </ScrollFadeIn>
               </div>
             </div>
           )
