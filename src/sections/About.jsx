@@ -1,5 +1,5 @@
 // Components
-import { FadeIn } from '../components/FadeIn';
+import { ScrollFadeIn } from '../components/ScrollFadeIn';
 import { Button } from '../components/Button';
 // PDF
 import PDF from '../assets/resume.pdf';
@@ -11,7 +11,7 @@ export const About = () => {
       <div className='md:flex gap-10 w-4/5 mx-auto'>
         <div className='py-20 md:w-2/4'>
           <h1 className='sub-st mb-10'>About Me</h1>
-          <FadeIn>
+          <ScrollFadeIn>
             <p className='bio-st font-arial'>
               Hello! My name is Emmy and I enjoy creating magical things. I am a
               recent graduate (as of April 2023) in AI technology. I have
@@ -21,7 +21,7 @@ export const About = () => {
               coding and curious about learning new technologies! See my resume
               for additional details.
             </p>
-          </FadeIn>
+          </ScrollFadeIn>
           <Button name='Resume' link={PDF} />
         </div>
         {/* My Skills */}
