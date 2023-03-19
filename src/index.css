@@ -63,7 +63,7 @@
 
 /* - - - Animations - - - */
 /* Fade-in */
-.FadeIn {
+.ScrollFadeIn {
   opacity: 0;
   transform: translateY(20vh);
   visibility: hidden;
@@ -71,7 +71,7 @@
   will-change: opacity, visibility;
 }
 
-.FadeIn.is-visible {
+.ScrollFadeIn.is-visible {
   opacity: 1;
   transform: none;
   visibility: visible;
