@@ -78,11 +78,7 @@
 }
 
 /* Fade-up */
-.box {
-  opacity: 0;
-}
-
-.fadeup {
+.mainFadeup {
   animation: fadeup 0.8s forwards;
   opacity: 0;
 }
@@ -99,10 +95,10 @@
   }
 }
 
-.delay_1 {
+.mainFadeupDelay_1 {
   animation-delay: 0.4s;
 }
 
-.delay_2 {
+.mainFadeupDelay_2 {
   animation-delay: 0.8s;
 }
