@@ -8,16 +8,16 @@ export const Home = () => {
   return (
     <div className='w-screen h-screen bg-webTop bg-center bg-zoom table-cell align-middle'>
       <div className='text-center py-8'>
-        <h1 className='fadeup box text-7xl text-dark-gray font-bebas py-4'>
+        <h1 className='mainFadeup text-7xl text-dark-gray font-bebas py-4'>
           Emmy Manning
         </h1>
-        <h2 className='fadeup box delay_1 text-xl text-dark-gray font-bebas'>
+        <h2 className='mainFadeup mainFadeupDelay_1 text-xl text-dark-gray font-bebas'>
           Love to build creative and magical things
         </h2>
       </div>
 
       {/* Card */}
-      <div className='fadeup box delay_2 glass mx-auto w-380 md:w-600'>
+      <div className='mainFadeup box mainFadeupDelay_2 glass mx-auto w-380 md:w-600'>
         <span className='md:absolute bottom-3/4 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 border-dotted'></span>
         <span className='md:absolute bottom-2/4 -right-12 -rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 border-dotted'></span>
         <main className='max-w-21 mx-auto'>
