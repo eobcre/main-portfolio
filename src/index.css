@@ -1,4 +1,9 @@
 /* - - - Global CSS - - - */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* - - - Tailwind - - - */
 /* Settings */
@@ -50,6 +55,32 @@
   src: url('./assets/Font.woff2') format('woff2');
   font-family: 'Bebas Neue';
   font-display: swap;
+}
+
+/* Preloader */
+.preloader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #34caf4;
+  width: 100vw;
+  height: 100vh;
+}
+
+.loading {
+  animation: zoom 2s infinite ease-in-out;
+  -webkit-animation: zoom 2s infinite ease-in-out;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
 }
 
 /* Glassmorphism */
