@@ -38,7 +38,10 @@ export const MyWork = () => {
                     <p className='tech-st'>{tech4}</p>
                     <p className='tech-st'>{tech5}</p>
                   </div>
-                  <Button name='See The App' link='#' />
+                  <Button
+                    name='See The App'
+                    link='https://omikuji-fortune-app.herokuapp.com/'
+                  />
                 </ScrollFadeIn>
               </div>
             </div>
