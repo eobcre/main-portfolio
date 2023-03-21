@@ -12,7 +12,19 @@ export const MyWork = () => {
         {/* Portfolio list data */}
         {data.map(
           (
-            { name, src, logo, description, tech1, tech2, tech3, tech4, tech5 },
+            {
+              name,
+              src,
+              logo,
+              url,
+              description,
+              tech1,
+              tech2,
+              tech3,
+              tech4,
+              tech5,
+              tech6,
+            },
             index
           ) => (
             <div key={index} className='md:flex gap-10 mt-20 md:mt-32'>
@@ -37,11 +49,9 @@ export const MyWork = () => {
                     <p className='tech-st'>{tech3}</p>
                     <p className='tech-st'>{tech4}</p>
                     <p className='tech-st'>{tech5}</p>
+                    <p className='tech-st'>{tech6}</p>
                   </div>
-                  <Button
-                    name='See The App'
-                    link='https://omikuji-fortune-app.herokuapp.com/'
-                  />
+                  <Button name='See The App' link={url} />
                 </ScrollFadeIn>
               </div>
             </div>
