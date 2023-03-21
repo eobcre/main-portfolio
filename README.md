@@ -7,6 +7,7 @@
 - react-icons
 - react-scroll
 - @emailjs/browser
+- Heroku
 
 ## Run Locally
 
