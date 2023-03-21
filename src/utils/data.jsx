@@ -21,9 +21,8 @@ export const data = [
       'Omikuji is a paper slip that contains the result of fortune-telling. It is believed to predict your future and is commonly found in shrines and temples throughout Japan. Now, you can try it on an app and find out your fortune! ',
     tech1: 'React',
     tech2: 'Vite',
-    tech3: 'JavaScript',
-    tech4: 'TypeScript',
-    tech5: 'HTML',
-    tech6: 'CSS',
+    tech3: 'TypeScript',
+    tech4: 'HTML',
+    tech5: 'CSS',
   },
 ];
