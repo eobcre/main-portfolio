@@ -48,5 +48,10 @@
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.17",
     "tailwindcss": "^3.1.8"
-  }
+  },
+  "description": "![bg-banner](https://user-images.githubusercontent.com/88697509/199711934-b17c9fec-c909-4e1f-9bf0-48ccd1ebeb44.png)",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
