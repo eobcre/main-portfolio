@@ -23,7 +23,6 @@ export const MyWork = () => {
               tech3,
               tech4,
               tech5,
-              tech6,
             },
             index
           ) => (
@@ -49,7 +48,6 @@ export const MyWork = () => {
                     <p className='tech-st'>{tech3}</p>
                     <p className='tech-st'>{tech4}</p>
                     <p className='tech-st'>{tech5}</p>
-                    <p className='tech-st'>{tech6}</p>
                   </div>
                   <Button name='See The App' link={url} />
                 </ScrollFadeIn>
