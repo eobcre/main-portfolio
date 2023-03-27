@@ -11,10 +11,10 @@ export const Contact = () => {
     e.preventDefault();
 
     EmailJS.sendForm(
-      'service_lkcx1hs',
-      'template_ia4piap',
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       e.target,
-      '8amCye5YPJ3JRgePo'
+      process.env.REACT_APP_PUBLIC_KEY
     ).then(
       (result) => {
         console.log(result.text);
