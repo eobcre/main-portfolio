@@ -133,3 +133,12 @@
 .mainFadeupDelay_2 {
   animation-delay: 0.8s;
 }
+
+/* Dialogflow */
+df-messenger {
+  --df-messenger-button-titlebar-color: white;
+  --df-messenger-button-titlebar-color: #303030;
+  --df-messenger-button-titlebar-font-color: #ffffff;
+  --df-messenger-send-icon: #303030;
+  --df-messenger-user-message: #e5e4e2;
+}
