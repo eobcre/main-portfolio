@@ -35,7 +35,7 @@ export const Home = () => {
             {/* Portfolio */}
             <span className='effect-st col-start-7 col-span-3'>
               <a
-                href='https://google.com'
+                href='https://www.emanning.dev'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -68,7 +68,7 @@ export const Home = () => {
           <div className='sub-email grid justify-center mb-4'>
             <span className='effect-st'>
               <a
-                href='mailto:eobcre@gmail.com'
+                href='mailto:eobcre@emanning.dev'
                 target='_blank'
                 rel='noopener noreferrer'
               >
