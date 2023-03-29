@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 // Components
 import { Header } from './components/Header';
+import { ChatBot } from './components/ChatBot';
 // Sections
 import { Home } from './sections/Home';
 import { About } from './sections/About';
@@ -32,6 +33,7 @@ export const App = () => {
       ) : (
         <>
           <Header />
+          <ChatBot />
           <Home />
           <section id='About'>
             <About />
