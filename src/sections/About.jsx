@@ -22,7 +22,7 @@ export const About = () => {
               for additional details.
             </p>
           </ScrollFadeIn>
-          <Button name='Resume' link={PDF} />
+          <Button name='Test' link={PDF} />
         </div>
         {/* My Skills */}
         <div className='py-20 md:w-2/4'>
