@@ -8,6 +8,7 @@
 - react-scroll
 - @emailjs/browser
 - Heroku
+- Dialogflow
 
 ## Run Locally
 
