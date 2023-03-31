@@ -14,7 +14,7 @@ export const About = () => {
           <ScrollFadeIn>
             <p className='bio-st font-arial'>
               Hello! My name is Emmy and I enjoy creating magical things. I am a
-              recent graduate (as of April 2023) in AI technology. I have
+              recent graduate (as of March 2023) in AI technology. I have
               experience working in the IT industry and am skilled in coding and
               designing. I have had the privilege of working on map alignments
               and survey app development. I am always passionate about creative
