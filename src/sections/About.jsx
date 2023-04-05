@@ -7,9 +7,9 @@ import PDF from '../assets/resume.pdf';
 export const About = () => {
   // JSX
   return (
-    <div className='h-auto bg-light-blue bg-zoom text-dark-gray'>
+    <div className='h-auto bg-light-blue bg-zoom text-dark-gray pt-24'>
       <div className='md:flex gap-10 w-4/5 mx-auto'>
-        <div className='py-20 md:w-2/4'>
+        <div className='md:w-2/4'>
           <h1 className='sub-st mb-10'>About Me</h1>
           <ScrollFadeIn>
             <p className='bio-st font-arial'>
@@ -25,7 +25,7 @@ export const About = () => {
           <Button name='Resume' link={PDF} />
         </div>
         {/* My Skills */}
-        <div className='py-20 md:w-2/4'>
+        <div className='pt-20 md:pt-0 md:w-2/4'>
           <h1 className='sub-st mb-10'>My Skills</h1>
           <div className='flex flex-wrap gap-4'>
             <p className='skill-st'>HTML</p>

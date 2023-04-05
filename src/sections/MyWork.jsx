@@ -6,7 +6,7 @@ import { data } from '../utils/data';
 export const MyWork = () => {
   // JSX
   return (
-    <div className='h-auto bg-light-blue py-20'>
+    <div className='h-auto bg-light-blue pt-24'>
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st'>My Work</h1>
         {/* Portfolio list data */}
