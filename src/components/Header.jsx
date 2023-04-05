@@ -44,7 +44,7 @@ export const Header = () => {
                 to='About'
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-10}
                 duration={500}
                 onClick={toggle}
               >
@@ -58,7 +58,7 @@ export const Header = () => {
                 to='MyWork'
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-10}
                 duration={500}
                 onClick={toggle}
               >
@@ -72,7 +72,7 @@ export const Header = () => {
                 to='Contact'
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={20}
                 duration={500}
                 onClick={toggle}
               >
