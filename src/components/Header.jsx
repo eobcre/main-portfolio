@@ -72,7 +72,7 @@ export const Header = () => {
                 to='Contact'
                 spy={true}
                 smooth={true}
-                offset={20}
+                offset={-10}
                 duration={500}
                 onClick={toggle}
               >
