@@ -21,8 +21,8 @@ export const About = () => {
               coding and curious about learning new technologies! See my resume
               for additional details.
             </p>
+            <Button name='Resume' link={PDF} />
           </ScrollFadeIn>
-          <Button name='Resume' link={PDF} />
         </div>
         {/* My Skills */}
         <div className='pt-20 md:pt-0 md:w-2/4'>
