@@ -18,3 +18,7 @@ $ git cd main-portfolio
 $ npm install
 $ npm start
 ```
+
+## Dialogflow Intents
+
+The concept of the chat is to have an agent named Emmy navigate the interface and answer user questions. This means that you can ask Emmy a variety of questions related to the website's features and she will respond with helpful information and guidance. She may answer if she likes coffee too.
