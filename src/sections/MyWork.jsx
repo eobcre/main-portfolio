@@ -1,9 +1,9 @@
 // Components
-import { Button } from '../components/Button';
-import { ScrollFadeIn } from '../components/ScrollFadeIn';
+import Button from '../components/Button';
+import ScrollFadeIn from '../components/ScrollFadeIn';
 import { data } from '../utils/data';
 
-export const MyWork = () => {
+const MyWork = () => {
   // JSX
   return (
     <div className='h-auto bg-light-blue pt-24'>
@@ -59,3 +59,5 @@ export const MyWork = () => {
     </div>
   );
 };
+
+export default MyWork;

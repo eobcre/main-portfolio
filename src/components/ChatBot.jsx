@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export const ChatBot = () => {
+const ChatBot = () => {
   // prevent duplicate elements dl-messenger-list
   useEffect(() => {
     if (!window.dfMessengerLoaded) {
@@ -35,3 +35,5 @@ export const ChatBot = () => {
     </>
   );
 };
+
+export default ChatBot;

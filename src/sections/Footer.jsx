@@ -1,4 +1,4 @@
-export const Footer = () => {
+const Footer = () => {
   // JSX
   return (
     <div className='bg-light-blue h-20 md:hidden'>
@@ -10,3 +10,5 @@ export const Footer = () => {
     </div>
   );
 };
+
+export default Footer;

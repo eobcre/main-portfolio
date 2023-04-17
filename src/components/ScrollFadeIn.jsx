@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-export const ScrollFadeIn = (props) => {
+const ScrollFadeIn = (props) => {
   const [visible, setVisible] = useState(false);
   const documentRef = useRef();
 
@@ -23,3 +23,5 @@ export const ScrollFadeIn = (props) => {
     </div>
   );
 };
+
+export default ScrollFadeIn;

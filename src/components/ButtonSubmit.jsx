@@ -1,4 +1,4 @@
-export const ButtonSubmit = (props) => {
+const ButtonSubmit = (props) => {
   return (
     <div className='flex justify-center py-8'>
       <button
@@ -10,3 +10,5 @@ export const ButtonSubmit = (props) => {
     </div>
   );
 };
+
+export default ButtonSubmit;

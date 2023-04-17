@@ -3,7 +3,7 @@ import Brackets from '../assets/brackets.png';
 import Bracket from '../assets/bracket.png';
 import Bracket_2 from '../assets/bracket_2.png';
 
-export const Home = () => {
+const Home = () => {
   // JSX
   return (
     <div className='w-screen h-screen bg-webTop bg-center bg-zoom table-cell align-middle'>
@@ -81,3 +81,5 @@ export const Home = () => {
     </div>
   );
 };
+
+export default Home;

@@ -1,12 +1,12 @@
 // Components
-import { ButtonSubmit } from '../components/ButtonSubmit';
+import ButtonSubmit from '../components/ButtonSubmit';
 // Email JS
 import EmailJS from '@emailjs/browser';
 // Sweet Alert 2
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 
-export const Contact = () => {
+const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -100,3 +100,5 @@ export const Contact = () => {
     </div>
   );
 };
+
+export default Contact;

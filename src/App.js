@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react';
 // Components
-import { Header } from './components/Header';
-import { ChatBot } from './components/ChatBot';
+import Header from './components/Header';
+import ChatBot from './components/ChatBot';
 // Sections
-import { Home } from './sections/Home';
-import { About } from './sections/About';
-import { MyWork } from './sections/MyWork';
-import { Contact } from './sections/Contact';
-import { Footer } from './sections/Footer';
+import Home from './sections/Home';
+import About from './sections/About';
+import MyWork from './sections/MyWork';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 // Preloader
-export const App = () => {
+const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -50,3 +50,5 @@ export const App = () => {
     </>
   );
 };
+
+export default App;

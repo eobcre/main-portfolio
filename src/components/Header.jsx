@@ -7,7 +7,7 @@ import Logo from '../assets/logo.png';
 // PDF
 import PDF from '../assets/resume.pdf';
 
-export const Header = () => {
+const Header = () => {
   const [navbar, setNavbar] = useState(false);
   const toggle = () => setNavbar(!navbar);
 
@@ -97,3 +97,5 @@ export const Header = () => {
     </nav>
   );
 };
+
+export default Header;

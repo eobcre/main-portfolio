@@ -1,4 +1,4 @@
-export const Button = (props) => {
+const Button = (props) => {
   return (
     <div className='py-10'>
       <a
@@ -12,3 +12,5 @@ export const Button = (props) => {
     </div>
   );
 };
+
+export default Button;

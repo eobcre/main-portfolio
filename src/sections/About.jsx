@@ -1,10 +1,10 @@
 // Components
-import { ScrollFadeIn } from '../components/ScrollFadeIn';
-import { Button } from '../components/Button';
+import ScrollFadeIn from '../components/ScrollFadeIn';
+import Button from '../components/Button';
 // PDF
 import PDF from '../assets/resume.pdf';
 
-export const About = () => {
+const About = () => {
   // JSX
   return (
     <div className='h-auto bg-light-blue bg-zoom text-dark-gray pt-24'>
@@ -45,3 +45,5 @@ export const About = () => {
     </div>
   );
 };
+
+export default About;
