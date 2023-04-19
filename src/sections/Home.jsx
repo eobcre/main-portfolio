@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 // Images
 import Brackets from '../assets/brackets.png';
 import Bracket from '../assets/bracket.png';
@@ -34,13 +35,16 @@ const Home = () => {
             </span>
             {/* Portfolio */}
             <span className='effect-st col-start-7 col-span-3'>
-              <a
-                href='https://www.emanning.dev'
-                target='_blank'
-                rel='noopener noreferrer'
+              <Link
+                activeClass='active'
+                to='About'
+                spy={true}
+                smooth={true}
+                offset={-10}
+                duration={500}
               >
                 Portfolio
-              </a>
+              </Link>
             </span>
           </div>
           <img src={Brackets} alt='Icon' />
