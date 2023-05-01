@@ -9,7 +9,10 @@ import PDF from '../assets/resume.pdf';
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
-  const toggle = () => setNavbar(!navbar);
+
+  const toggle = () => {
+    setNavbar((prevState) => !prevState);
+  };
 
   // JSX
   return (
