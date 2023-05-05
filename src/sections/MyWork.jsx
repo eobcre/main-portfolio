@@ -2,14 +2,14 @@
 import Button from '../components/Button';
 import ScrollFadeIn from '../components/ScrollFadeIn';
 // datas
-import { data } from '../utils/data';
+import { myWorkData } from '../utils/myWorkData';
 
 const MyWork = () => {
   return (
     <div className='h-auto bg-light-blue pt-24'>
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st'>My Work</h1>
-        {data.map(
+        {myWorkData.map(
           (
             {
               id,
