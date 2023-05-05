@@ -1,5 +1,8 @@
+import { nanoid } from 'nanoid';
+
 export const data = [
   {
+    id: nanoid(),
     name: 'Salon Website',
     src: '../../work_assets/salon.png',
     logo: '../../work_assets/salon.jpg',
@@ -13,6 +16,7 @@ export const data = [
     tech5: 'CSS',
   },
   {
+    id: nanoid(),
     name: 'Omikuji',
     src: '../../work_assets/omikuji-app.png',
     logo: '../../work_assets/omikuji.png',
