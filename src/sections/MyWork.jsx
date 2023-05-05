@@ -12,6 +12,7 @@ const MyWork = () => {
         {data.map(
           (
             {
+              id,
               name,
               src,
               logo,
@@ -25,7 +26,7 @@ const MyWork = () => {
             },
             index
           ) => (
-            <div key={index} className='md:flex gap-10 mt-20 md:mt-32'>
+            <div key={id} className='md:flex gap-10 mt-20 md:mt-32'>
               <div className='w-auto backdrop-blur md:w-2/4'>
                 <span className='hidden md:block absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
                 <img src={src} alt={`${index}`} className='hidden md:block' />
