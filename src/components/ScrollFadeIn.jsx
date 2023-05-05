@@ -13,7 +13,6 @@ const ScrollFadeIn = ({ children }) => {
     observer.observe(documentRef.current);
   }, []);
 
-  //  JSX
   return (
     <div
       ref={documentRef}

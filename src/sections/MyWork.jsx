@@ -1,7 +1,7 @@
 // components
 import Button from '../components/Button';
 import ScrollFadeIn from '../components/ScrollFadeIn';
-// datas
+// data
 import { myWorkData } from '../utils/myWorkData';
 
 const MyWork = () => {

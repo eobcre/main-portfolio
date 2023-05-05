@@ -1,8 +1,8 @@
-// Components
+// components
 import ButtonSubmit from '../components/ButtonSubmit';
-// Email JS
+// email js
 import EmailJS from '@emailjs/browser';
-// Sweet Alert 2
+// sweet alert 2
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 
@@ -25,7 +25,7 @@ const Contact = () => {
     );
     e.target.reset();
 
-    // Alert
+    // alert
     const MySwal = withReactContent(Swal);
 
     MySwal.fire({
@@ -35,7 +35,6 @@ const Contact = () => {
     });
   };
 
-  // JSX
   return (
     <div className='h-auto bg-light-blue py-20 md:py-24'>
       <div className='mx-auto w-4/5'>
@@ -45,7 +44,6 @@ const Contact = () => {
           <span className='hidden absolute md:block md:bottom-12 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 md:border-dotted'></span>
 
           <form onSubmit={sendEmail} required>
-            {/* Title */}
             <h2 className='text-dark-gray text-2xl text-center font-bebas pt-8 md:text-3xl'>
               Lets Connect
             </h2>
@@ -62,7 +60,7 @@ const Contact = () => {
               .
               <br />I will get back to you as soon as possible.
             </p>
-            {/* "Name" field */}
+            {/* contact form */}
             <div className='py-2'>
               <input
                 type='text'
@@ -72,7 +70,6 @@ const Contact = () => {
                 required
               />
             </div>
-            {/* "Email" field */}
             <div className='py-2'>
               <input
                 type='email'
@@ -82,7 +79,6 @@ const Contact = () => {
                 required
               />
             </div>
-            {/* "Message" field */}
             <div className='pt-2'>
               <textarea
                 placeholder='Message'

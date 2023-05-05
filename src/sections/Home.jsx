@@ -1,11 +1,11 @@
+// react scroll
 import { Link } from 'react-scroll';
-// Images
+// img
 import Brackets from '../assets/brackets.png';
 import Bracket from '../assets/bracket.png';
 import Bracket_2 from '../assets/bracket_2.png';
 
 const Home = () => {
-  // JSX
   return (
     <div className='w-screen h-screen bg-webTop bg-center bg-zoom table-cell align-middle'>
       <div className='text-center py-8'>
@@ -17,12 +17,12 @@ const Home = () => {
         </h2>
       </div>
 
-      {/* Card */}
+      {/* card */}
       <div className='mainFadeup box mainFadeupDelay_2 glass mx-auto w-380 md:w-600'>
         <span className='md:absolute bottom-3/4 -left-12 rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 border-dotted'></span>
         <span className='md:absolute bottom-2/4 -right-12 -rotate-12 w-24 h-8 bg-clear-tape md:border-l-2 md:border-r-2 border-dotted'></span>
         <main className='max-w-21 mx-auto'>
-          {/* GitHub */}
+          {/* github */}
           <div className='grid grid-cols-10 mt-6'>
             <span className='effect-st col-start-2 col-span-2'>
               <a
@@ -33,7 +33,7 @@ const Home = () => {
                 GitHub
               </a>
             </span>
-            {/* Portfolio */}
+            {/* portfolio */}
             <span className='effect-st col-start-7 col-span-3'>
               <Link
                 activeClass='active'
@@ -55,7 +55,7 @@ const Home = () => {
             </p>
           </div>
           <img src={Bracket_2} alt='Icon' />
-          {/* Instagram */}
+          {/* instagram */}
           <div className='grid grid-cols-9'>
             <span className='effect-st col-end-8 col-span-2'>
               <a
@@ -68,7 +68,7 @@ const Home = () => {
             </span>
           </div>
           <img src={Bracket} alt='Icon' />
-          {/* Email */}
+          {/* email */}
           <div className='sub-email grid justify-center mb-4'>
             <span className='effect-st'>
               <a

@@ -1,10 +1,10 @@
 import { useState } from 'react';
-// React scroll
+// react scroll
 import { Link } from 'react-scroll';
-// Icons
+// icons
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import Logo from '../assets/logo.png';
-// PDF
+// pdf
 import PDF from '../assets/resume.pdf';
 
 const Header = () => {
@@ -14,16 +14,14 @@ const Header = () => {
     setNavbar((prevState) => !prevState);
   };
 
-  // JSX
   return (
     <nav className='w-full fixed top-0 z-10'>
       <div className='glass px-4 md:flex justify-between items-center'>
-        {/* Logo */}
         <div className='flex justify-between items-center'>
           <a href='./'>
             <img src={Logo} alt='Logo' width='40' />
           </a>
-          {/* Mobile menu button */}
+          {/* mobile menu button */}
           <div className='md:hidden'>
             <button
               className='text-dark-gray rounded-md outline-none py-2'
@@ -37,10 +35,10 @@ const Header = () => {
             </button>
           </div>
         </div>
-        {/* Nav list */}
+        {/* nav list */}
         <div className={`pb-8 md:block md:pb-0 ${navbar ? 'block' : 'hidden'}`}>
           <ul className='font-bebas justify-center items-center md:flex'>
-            {/* About */}
+            {/* about */}
             <li className='nav-items-st'>
               <Link
                 activeClass='active'
@@ -54,7 +52,7 @@ const Header = () => {
                 About
               </Link>
             </li>
-            {/* My Work */}
+            {/* my work */}
             <li className='nav-items-st'>
               <Link
                 activeClass='active'
@@ -68,7 +66,7 @@ const Header = () => {
                 My Work
               </Link>
             </li>
-            {/* Contact */}
+            {/* contact */}
             <li className='nav-items-st'>
               <Link
                 activeClass='active'
@@ -82,7 +80,7 @@ const Header = () => {
                 Contact
               </Link>
             </li>
-            {/* Resume */}
+            {/* resume */}
             <li className='nav-items-st'>
               <a href={PDF} target='_blank' rel='noopener noreferrer'>
                 Resume
@@ -91,7 +89,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      {/* Copyright */}
+      {/* copyright */}
       <div className='fixed bottom-0 text-dark-gray text-2xl [writing-mode:vertical-rl] [text-orientation:sideways-right] px-4 py-8'>
         <p className='hidden md:block md:text-dark-gray font-bebas'>
           &copy; 2023 Emmy Manning
