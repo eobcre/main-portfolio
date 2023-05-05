@@ -1,15 +1,14 @@
-// Components
+// components
 import Button from '../components/Button';
 import ScrollFadeIn from '../components/ScrollFadeIn';
+// datas
 import { data } from '../utils/data';
 
 const MyWork = () => {
-  // JSX
   return (
     <div className='h-auto bg-light-blue pt-24'>
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st'>My Work</h1>
-        {/* Portfolio list data */}
         {data.map(
           (
             {
