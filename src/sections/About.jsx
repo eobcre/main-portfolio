@@ -1,13 +1,12 @@
-// Components
+// components
 import ScrollFadeIn from '../components/ScrollFadeIn';
 import Button from '../components/Button';
-// PDF
+// pdf
 import PDF from '../assets/resume.pdf';
 // utils
 import { skillSetData } from '../utils/skillSetData';
 
 const About = () => {
-  // JSX
   return (
     <div className='h-auto bg-light-blue bg-zoom text-dark-gray pt-24'>
       <div className='md:flex gap-10 w-4/5 mx-auto'>
@@ -26,7 +25,6 @@ const About = () => {
             <Button name='Resume' link={PDF} />
           </ScrollFadeIn>
         </div>
-        {/* My Skills */}
         <div className='pt-20 md:pt-0 md:w-2/4'>
           <h1 className='sub-st mb-10'>My Skills</h1>
           <div className='flex flex-wrap gap-4'>
