@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const ScrollFadeIn = (props) => {
+const ScrollFadeIn = ({ children }) => {
   const [visible, setVisible] = useState(false);
   const documentRef = useRef();
 
@@ -17,9 +17,9 @@ const ScrollFadeIn = (props) => {
   return (
     <div
       ref={documentRef}
-      className={`ScrollFadeIn ${visible ? 'is-visible' : ''}`}
+      className={`ScrollFadeIn ${visible ? 'fade-styling' : ''}`}
     >
-      {props.children}
+      {children}
     </div>
   );
 };
