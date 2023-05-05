@@ -104,7 +104,7 @@
   will-change: opacity, visibility;
 }
 
-.ScrollFadeIn.is-visible {
+.ScrollFadeIn.fade-styling {
   opacity: 1;
   transform: none;
   -webkit-transform: none;
