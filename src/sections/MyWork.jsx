@@ -30,12 +30,12 @@ const MyWork = () => {
               <h2 className='my-work-title-st'>{data.name}</h2>
               <ScrollFadeIn>
                 <p className='my-work-st'>{data.description}</p>
-                <div className='flex gap-4'>
-                  <p className='tech-st'>{data.tech1}</p>
-                  <p className='tech-st'>{data.tech2}</p>
-                  <p className='tech-st'>{data.tech3}</p>
-                  <p className='tech-st'>{data.tech4}</p>
-                  <p className='tech-st'>{data.tech5}</p>
+                <div>
+                  <span className='tech-st'>{data.tech1}</span>
+                  <span className='tech-st'>{data.tech2}</span>
+                  <span className='tech-st'>{data.tech3}</span>
+                  <span className='tech-st'>{data.tech4}</span>
+                  <span className='tech-st'>{data.tech5}</span>
                 </div>
                 <Button name='See The App' link={data.url} />
               </ScrollFadeIn>
