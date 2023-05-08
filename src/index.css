@@ -46,7 +46,7 @@
   }
 
   .tech-st {
-    @apply text-white text-sm;
+    @apply text-white text-sm mr-4;
   }
 }
 
