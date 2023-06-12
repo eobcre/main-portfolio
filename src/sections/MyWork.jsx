@@ -10,7 +10,7 @@ const MyWork = () => {
       <div className='mx-auto w-4/5'>
         <h1 className='sub-st'>My Work</h1>
         {myWorkData.map((data, index) => (
-          <div key={data.id} className='md:flex gap-10 mt-20 md:mt-32'>
+          <div key={data.id} className='mt-10 md:flex gap-10 md:mt-20'>
             <div className='w-auto backdrop-blur md:w-2/4'>
               <span className='hidden md:block absolute md:-top-4 left-inset40 rotate-45 w-24 h-8 bg-clear-tape border-l-2 border-r-2 border-dotted'></span>
               <img
