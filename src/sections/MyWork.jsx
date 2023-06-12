@@ -37,7 +37,7 @@ const MyWork = () => {
                   <span className='tech-st'>{data.tech4}</span>
                   <span className='tech-st'>{data.tech5}</span>
                 </div>
-                <Button name='See The App' link={data.url} />
+                <Button name='View' link={data.url} />
               </ScrollFadeIn>
             </div>
           </div>
