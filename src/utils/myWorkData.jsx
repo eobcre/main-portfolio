@@ -29,4 +29,18 @@ export const myWorkData = [
     tech4: 'HTML',
     tech5: 'CSS',
   },
+  {
+    id: nanoid(),
+    name: 'Omikuji',
+    src: '../../work_assets/omikuji.png',
+    logo: '../../work_assets/omikuji.jpg',
+    url: 'https://omikuji-fortune-app.herokuapp.com/',
+    description:
+      'Omikuji is a paper slip that contains the result of fortune-telling. It is believed to predict your future and is commonly found in shrines and temples throughout Japan. Now, you can try it on an app and find out your fortune!',
+    tech1: 'React',
+    tech2: 'Vite',
+    tech3: 'TypeScript',
+    tech4: 'HTML',
+    tech5: 'CSS',
+  },
 ];
