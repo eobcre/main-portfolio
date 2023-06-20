@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 const ChatBot = () => {
-  // prevent duplicate elements dl-messenger-list
+  // prevent duplicate elements df-messenger-list
   useEffect(() => {
     if (!window.dfMessengerLoaded) {
       const script = document.createElement('script');
@@ -13,7 +13,7 @@ const ChatBot = () => {
     }
     // customize chat widget height
     const dfMessenger = document.querySelector('df-messenger');
-    dfMessenger.addEventListener('df-messenger-loaded', function () {
+    dfMessenger.addEventListener('df-messenger-loaded', () => {
       const dfMessengerChat =
         dfMessenger.shadowRoot.querySelector('df-messenger-chat');
       const style = document.createElement('style');
